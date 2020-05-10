@@ -7,6 +7,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.os.Handler;
 
 import me.relex.circleindicator.CircleIndicator;
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(vpPager);
+
     }
 
     public static class MyPagerAdapter extends FragmentPagerAdapter {
