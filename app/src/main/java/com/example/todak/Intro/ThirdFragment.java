@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.todak.ViewHome.Main2Activity;
+
 import com.example.todak.R;
 
 public class ThirdFragment  extends Fragment  {
