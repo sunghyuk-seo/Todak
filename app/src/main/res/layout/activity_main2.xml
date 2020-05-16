@@ -6,4 +6,35 @@
     android:layout_height="match_parent"
     tools:context=".Intro.Main2Activity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/self"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:src="@drawable/self"
+
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/doubt"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:src="@drawable/doubt"
+
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/path"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:src="@drawable/path"
+
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
