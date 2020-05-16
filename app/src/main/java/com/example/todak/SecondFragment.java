@@ -37,6 +37,7 @@ public class SecondFragment  extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_second, container, false);
 
+
         return view;
     }
 }

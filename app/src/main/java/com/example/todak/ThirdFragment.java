@@ -2,6 +2,8 @@ package com.example.todak;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class ThirdFragment  extends Fragment {
+public class ThirdFragment  extends Fragment  {
     // Store instance variables
     private String title;
     private int page;
@@ -31,7 +33,7 @@ public class ThirdFragment  extends Fragment {
         page = getArguments().getInt("someInt", 0);
         title = getArguments().getString("someTitle");
 
-        
+
 
 
     }
@@ -41,12 +43,21 @@ public class ThirdFragment  extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_third, container, false);
+
+        Button button = (Button)view.findViewById(R.id.startbutton);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent LoadNewActivity = new Intent(getActivity(),ViewHome.class);
+                startActivity(LoadNewActivity);
+            }
+        });
         return view;
+
+
     }
 
-    public void onclick(View view)
-    {
-        Intent LoadNewActivity = new Intent(getActivity(),ViewHome.class);
-        startActivity(LoadNewActivity);
-    }
+
+
+
 }
