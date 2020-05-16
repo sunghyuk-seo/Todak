@@ -48,7 +48,7 @@ public class ThirdFragment  extends Fragment  {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent LoadNewActivity = new Intent(getActivity(),ViewHome.class);
+                Intent LoadNewActivity = new Intent(getActivity(),Main2Activity.class);
                 startActivity(LoadNewActivity);
             }
         });
