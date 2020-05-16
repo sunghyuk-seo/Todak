@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Intro.Doubt_search"></activity>
+        <activity android:name=".Intro.self_diagnosis_lung"></activity>
+        <activity android:name=".Intro.self_diagnosis" />
+        <activity android:name=".Intro.Doubt_search" />
         <activity android:name=".Intro.Main2Activity" />
         <activity android:name=".Intro.main2_Fragment2" />
         <activity android:name=".Intro.MainActivity" />
