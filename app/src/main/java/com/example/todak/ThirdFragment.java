@@ -1,10 +1,12 @@
 package com.example.todak;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class ThirdFragment  extends Fragment {
@@ -28,6 +30,10 @@ public class ThirdFragment  extends Fragment {
         super.onCreate(savedInstanceState);
         page = getArguments().getInt("someInt", 0);
         title = getArguments().getString("someTitle");
+
+        
+
+
     }
 
     // Inflate the view for the fragment based on layout XML
@@ -36,5 +42,11 @@ public class ThirdFragment  extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_third, container, false);
         return view;
+    }
+
+    public void onclick(View view)
+    {
+        Intent LoadNewActivity = new Intent(getActivity(),ViewHome.class);
+        startActivity(LoadNewActivity);
     }
 }
