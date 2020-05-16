@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.Intro;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -7,7 +7,11 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import android.os.Handler;
+
+import com.example.todak.Intro.FirstFragment;
+import com.example.todak.Intro.SecondFragment;
+import com.example.todak.Intro.ThirdFragment;
+import com.example.todak.R;
 
 import me.relex.circleindicator.CircleIndicator;
 
