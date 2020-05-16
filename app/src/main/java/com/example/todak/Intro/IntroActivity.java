@@ -1,9 +1,12 @@
-package com.example.todak;
+package com.example.todak.Intro;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.todak.Intro.MainActivity;
+import com.example.todak.R;
 
 public class IntroActivity extends Activity{
 
