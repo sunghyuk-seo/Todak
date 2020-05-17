@@ -15,6 +15,7 @@
         <activity android:name=".Intro.Main2Activity" />
         <activity android:name=".Intro.main2_Fragment2" />
         <activity android:name=".Intro.MainActivity" />
+        <activity android:name=".Intro.Disease_search"/>
         <activity android:name=".Intro.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
