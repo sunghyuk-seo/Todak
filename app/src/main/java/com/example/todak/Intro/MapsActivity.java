@@ -1,8 +1,8 @@
 package com.example.todak.Intro;
 
-import android.os.Bundle;
-
 import androidx.fragment.app.FragmentActivity;
+
+import android.os.Bundle;
 
 import com.example.todak.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -19,7 +19,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maps);
+        setContentView(R.layout.activity_maps2);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -36,8 +36,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
-
-
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;

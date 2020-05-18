@@ -18,6 +18,7 @@ public class Main2Activity extends AppCompatActivity {
 
         ImageButton button1 = (ImageButton)findViewById(R.id.self);
         ImageButton button2 = (ImageButton)findViewById(R.id.doubt);
+        ImageButton button3 = (ImageButton)findViewById(R.id.path);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +32,14 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Main2Activity.this, Disease_search.class);
+                startActivity(intent);
+            }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Main2Activity.this, MapsActivity.class);
                 startActivity(intent);
             }
         });
