@@ -26,5 +26,13 @@ public class self_diagnosis_lung6 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        no.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(self_diagnosis_lung6.this, self_diagnosis_lung7.class);
+                startActivity(intent);
+            }
+        });
     }
 }

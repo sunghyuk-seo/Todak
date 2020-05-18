@@ -13,4 +13,6 @@
     <string name="lung_question10">피가 섞인 \n 가래가 나옵니까?</string>
     <string name="lung_question11">가슴 안쪽이 아픕니까?</string>
     <string name="lung_question12">평소 담배를 피웁니까?</string>
+    <string name="lung_result_text">진단결과</string>
+    <string name="lung_result_answer">목감기가 의심됩니다.</string>
 </resources>
