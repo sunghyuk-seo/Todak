@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/q1"
-        android:layout_width="508dp"
-        android:layout_height="508dp"
+        android:layout_width="399dp"
+        android:layout_height="399dp"
         android:src="@drawable/q1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.615" />
 
     <Button
-        android:id="@+id/np_button"
+        android:id="@+id/no_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="아니오"
