@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.example.todak.R;
 
-public class  self_diagnosis_lung5 extends AppCompatActivity {
+public class self_diagnosis_lung5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,14 @@ public class  self_diagnosis_lung5 extends AppCompatActivity {
         Button no = (Button)findViewById(R.id.no_button);
 
         yes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(self_diagnosis_lung5.this, self_diagnosis_lung6.class);
+                startActivity(intent);
+            }
+        });
+
+        no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(self_diagnosis_lung5.this, self_diagnosis_lung6.class);
