@@ -15,7 +15,7 @@
             android:id="@+id/self"
             android:layout_width="match_parent"
             android:layout_height="249dp"
-            android:src="@drawable/self"
+            android:src="@drawable/logo"
 
             tools:ignore="ContentDescription" />
 
@@ -23,7 +23,7 @@
             android:id="@+id/doubt"
             android:layout_width="match_parent"
             android:layout_height="249dp"
-            android:src="@drawable/doubt"
+            android:src="drawble/HomeView/doubt"
 
             tools:ignore="ContentDescription" />
 
@@ -31,7 +31,7 @@
             android:id="@+id/path"
             android:layout_width="match_parent"
             android:layout_height="249dp"
-            android:src="@drawable/path"
+            android:src="drawable/HomeView/path"
 
             tools:ignore="ContentDescription" />
 

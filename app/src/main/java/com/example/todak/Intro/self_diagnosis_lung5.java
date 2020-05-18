@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.todak.R;
 
-public class self_diagnosis_lung5 extends AppCompatActivity {
+public class  self_diagnosis_lung5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
