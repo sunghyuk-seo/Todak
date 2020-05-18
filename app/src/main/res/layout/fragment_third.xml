@@ -3,4 +3,42 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+<<<<<<< Updated upstream
+=======
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="348dp"
+        android:layout_height="200dp"
+        android:src="@drawable/magnifying_glass"
+        app:layout_constraintBottom_toTopOf="@id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="그동한 궁금했던 질병들을 찾아볼 수 있습니다."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/startbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="207dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="onclick"
+        android:text="지금 시작하기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+>>>>>>> Stashed changes
 </androidx.constraintlayout.widget.ConstraintLayout>
