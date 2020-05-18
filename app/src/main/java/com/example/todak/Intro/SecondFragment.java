@@ -1,20 +1,22 @@
-package com.example.todak;
+package com.example.todak.Intro;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 
-public class ThirdFragment  extends Fragment {
+import com.example.todak.R;
+
+
+public class SecondFragment  extends Fragment {
     // Store instance variables
     private String title;
     private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static ThirdFragment newInstance(int page, String title) {
-        ThirdFragment fragment = new ThirdFragment();
+    public static SecondFragment newInstance(int page, String title) {
+        SecondFragment fragment = new SecondFragment();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
         args.putString("someTitle", title);
@@ -35,8 +37,8 @@ public class ThirdFragment  extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_second, container, false);
-        EditText tvLabel = (EditText) view.findViewById(R.id.editText);
-        tvLabel.setText(page + " -- " + title);
+
+
         return view;
     }
 }

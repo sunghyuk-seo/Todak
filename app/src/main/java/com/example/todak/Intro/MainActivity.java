@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.Intro;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -7,6 +7,11 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+
+import com.example.todak.Intro.FirstFragment;
+import com.example.todak.Intro.SecondFragment;
+import com.example.todak.Intro.ThirdFragment;
+import com.example.todak.R;
 
 import me.relex.circleindicator.CircleIndicator;
 
@@ -25,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(vpPager);
+
     }
 
     public static class MyPagerAdapter extends FragmentPagerAdapter {
