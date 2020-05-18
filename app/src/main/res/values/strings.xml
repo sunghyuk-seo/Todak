@@ -13,4 +13,21 @@
     <string name="lung_question10">피가 섞인 \n 가래가 나옵니까?</string>
     <string name="lung_question11">가슴 안쪽이 아픕니까?</string>
     <string name="lung_question12">평소 담배를 피웁니까?</string>
-</resources>
+
+
+
+    <string name="corona_corequestion2">마른 기침을 합니까?</string>
+    <string name="corona_corequestion3">피로감을 느낍니까?</string>
+
+    <string name="corona_question_else1">몸살이 있습니까?</string>
+    <string name="corona_question_else2">인후통이 있습니까?</string>
+    <string name="corona_question_else3">설사를 했나요?</string>
+    <string name="corona_question_else4">두통이 있습니까?</string>
+
+    <string name="corona_question_fatal1">호흡곤란이나 숨가쁨이 있습니까?</string>
+    <string name="corona_question_fatal2">가슴통증이나 압박감을 느낍니까?</string>
+    <string name="corona_question_fatal3">언어 장애 혹은 운동장애가 생겼습니까?</string>
+
+
+</resources
+    >
