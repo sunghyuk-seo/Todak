@@ -19,11 +19,12 @@
 
     <ImageButton
         android:id="@+id/brain"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/brain"
+        android:background="@drawable/brain"
         android:scaleType="centerInside"
+        android:src="@drawable/brain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
@@ -32,44 +33,47 @@
         app:layout_constraintVertical_bias="0.052"
         tools:ignore="ContentDescription" />
 
+
     <ImageButton
         android:id="@+id/bladder"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
+        android:background="@drawable/bladder"
+        android:scaleType="centerInside"
         android:src="@drawable/bladder"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307"
-        tools:ignore="ContentDescription" />
-
-
-    <ImageButton
-        android:id="@+id/heart"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/heart"
-        android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.307"
+        app:layout_constraintVertical_bias="0.957"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/heart"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/heart"
+        android:scaleType="centerInside"
+        android:src="@drawable/heart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.346"
         tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/bone"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/bone"
+        android:background="@drawable/bone"
         android:scaleType="centerInside"
+        android:src="@drawable/bone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -80,11 +84,12 @@
 
     <ImageButton
         android:id="@+id/large_intestine"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/large_intestine"
+        android:background="@drawable/large_intestine"
         android:scaleType="centerInside"
+        android:src="@drawable/large_intestine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -95,48 +100,51 @@
 
     <ImageButton
         android:id="@+id/liver"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/liver"
+        android:background="@drawable/liver"
         android:scaleType="centerInside"
+        android:src="@drawable/liver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683"
+        app:layout_constraintVertical_bias="0.675"
         tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/lung"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/lung"
+        android:background="@drawable/lung"
         android:scaleType="centerInside"
+        android:src="@drawable/lung"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957"
+        app:layout_constraintVertical_bias="0.346"
         tools:ignore="ContentDescription" />
 
     <ImageButton
         android:id="@+id/stomach"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/stomach"
+        android:background="@drawable/stomach"
         android:scaleType="centerInside"
 
+        android:src="@drawable/stomach"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.683"
+        app:layout_constraintVertical_bias="0.675"
         tools:ignore="ContentDescription" />
 
 
