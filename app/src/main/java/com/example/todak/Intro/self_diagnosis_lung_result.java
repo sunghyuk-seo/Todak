@@ -30,7 +30,7 @@ public class self_diagnosis_lung_result extends AppCompatActivity {
         map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(self_diagnosis_lung_result.this, Main2Activity.class);
+                Intent intent = new Intent(self_diagnosis_lung_result.this, MapsActivity.class);
                 startActivity(intent);
             }
         });
