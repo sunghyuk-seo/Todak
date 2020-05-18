@@ -29,6 +29,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity
+            android:name=".Intro.MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
         <activity android:name=".Intro.doubt_Corona2" />
         <activity android:name=".Intro.doubt_Corona1" />
         <activity android:name=".Intro.self_diagnosis_lung_result2" />

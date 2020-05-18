@@ -17,8 +17,17 @@ public class self_diagnosis_lung_result extends AppCompatActivity {
         setContentView(R.layout.activity_self_diagnosis_lung_result);
 
         Button home = (Button)findViewById(R.id.home_button);
+        Button map = (Button)findViewById(R.id.path_button);
 
         home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(self_diagnosis_lung_result.this, Main2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(self_diagnosis_lung_result.this, Main2Activity.class);
