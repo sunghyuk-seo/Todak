@@ -8,12 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="348dp"
-        android:layout_height="200dp"
+        android:layout_width="393dp"
+        android:layout_height="265dp"
         android:src="@drawable/magnifying_glass"
         app:layout_constraintBottom_toTopOf="@id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
