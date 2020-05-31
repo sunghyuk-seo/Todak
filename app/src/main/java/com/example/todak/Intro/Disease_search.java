@@ -13,6 +13,8 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.todak.Intro.SearchAdapter;
+import com.example.todak.Intro.doubt_Corona1;
 import com.example.todak.R;
 
 import java.util.ArrayList;
@@ -76,7 +78,7 @@ public class Disease_search extends AppCompatActivity {
                         handle.postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                Intent intent = new Intent(Disease_search.this,doubt_Corona1.class);
+                                Intent intent = new Intent(Disease_search.this, doubt_Corona1.class);
                                 startActivity(intent);
                                 finish();
                             }
