@@ -1,0 +1,2 @@
+rootProject.name='Todak'
+include ':app'
