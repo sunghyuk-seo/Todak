@@ -40,7 +40,7 @@ public class Main2Activity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Main2Activity.this, MapsActivity.class);
+                Intent intent = new Intent(Main2Activity.this, pathActivity.class);
                 startActivity(intent);
             }
         });
