@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import android.content.Context;
 import android.view.LayoutInflater;

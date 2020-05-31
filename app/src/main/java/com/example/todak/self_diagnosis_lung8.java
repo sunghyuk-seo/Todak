@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,12 +9,12 @@ import android.widget.Button;
 
 import com.example.todak.R;
 
-public class self_diagnosis_lung5 extends AppCompatActivity {
+public class self_diagnosis_lung8 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_self_diagnosis_lung5);
+        setContentView(R.layout.activity_self_diagnosis_lung8);
 
         Button yes = (Button)findViewById(R.id.yes_button);
         Button no = (Button)findViewById(R.id.no_button);
@@ -22,7 +22,7 @@ public class self_diagnosis_lung5 extends AppCompatActivity {
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(self_diagnosis_lung5.this, self_diagnosis_lung6.class);
+                Intent intent = new Intent(self_diagnosis_lung8.this, self_diagnosis_lung9.class);
                 startActivity(intent);
             }
         });
@@ -30,7 +30,7 @@ public class self_diagnosis_lung5 extends AppCompatActivity {
         no.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(self_diagnosis_lung5.this, self_diagnosis_lung6.class);
+                Intent intent = new Intent(self_diagnosis_lung8.this, self_diagnosis_lung9.class);
                 startActivity(intent);
             }
         });

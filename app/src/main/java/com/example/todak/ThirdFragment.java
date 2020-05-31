@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Intro.self_diagnosis_lung12">
+    tools:context=".self_diagnosis_lung12">
 
     <ImageView
         android:id="@+id/q12"

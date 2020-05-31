@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
