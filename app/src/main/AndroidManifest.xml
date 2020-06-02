@@ -11,8 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pathActivity"></activity>
-        <activity android:name=".MapsActivity" />
+        <activity android:name=".MapsActivity5"/>
+        <activity android:name=".MapsActivity4" />
+        <activity android:name=".MapsActivity3" />
+        <activity android:name=".MapsActivity2" />
+        <activity android:name=".pathActivity" />
+        <activity android:name=".MapsActivity1" />
         <activity android:name=".doubt_Corona2" />
         <activity android:name=".doubt_Corona1" />
         <activity android:name=".self_diagnosis_lung_result2" />

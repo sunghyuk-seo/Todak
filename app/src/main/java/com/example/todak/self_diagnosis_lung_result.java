@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.todak.R;
-
 public class self_diagnosis_lung_result extends AppCompatActivity {
 
     @Override
@@ -30,7 +28,7 @@ public class self_diagnosis_lung_result extends AppCompatActivity {
         map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(self_diagnosis_lung_result.this, MapsActivity.class);
+                Intent intent = new Intent(self_diagnosis_lung_result.this, MapsActivity1.class);
                 startActivity(intent);
             }
         });
