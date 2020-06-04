@@ -8,44 +8,6 @@
     tools:context=".Main2Activity">
 
     <ScrollView
-<<<<<<< HEAD
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity ="center"
-        android:fillViewport="true"
-        android:layout_marginTop="0dp"
-        android:id="@+id/scrollView">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-        <ImageButton
-            android:id="@+id/self"
-            android:layout_width="match_parent"
-            android:layout_height="249dp"
-            android:src="@drawable/self"
-
-            tools:ignore="ContentDescription" />
-
-        <ImageButton
-            android:id="@+id/doubt"
-            android:layout_width="match_parent"
-            android:layout_height="249dp"
-            android:src="@drawable/doubt"
-
-            tools:ignore="ContentDescription" />
-
-        <ImageButton
-            android:id="@+id/path"
-            android:layout_width="match_parent"
-            android:layout_height="249dp"
-            android:src="@drawable/path"
-
-            tools:ignore="ContentDescription" />
-=======
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -94,7 +56,6 @@
 
                 android:src="@drawable/path"
                 tools:ignore="ContentDescription" />
->>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
 
         </LinearLayout>
     </ScrollView>

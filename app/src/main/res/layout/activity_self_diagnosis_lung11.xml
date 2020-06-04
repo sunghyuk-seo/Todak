@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".Intro.self_diagnosis_lung11">
-=======
     tools:context=".self_diagnosis_lung11">
->>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
 
     <ImageView
         android:id="@+id/q11"
@@ -54,10 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/lung_question11"
-<<<<<<< HEAD
-=======
         android:gravity="center_horizontal"
->>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

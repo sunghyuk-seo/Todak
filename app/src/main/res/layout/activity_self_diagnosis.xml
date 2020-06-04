@@ -110,11 +110,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
-<<<<<<< HEAD
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-=======
         app:layout_constraintStart_toStartOf="parent"
->>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.675"
         tools:ignore="ContentDescription" />
@@ -129,17 +125,10 @@
         android:src="@drawable/lung"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.346"
-=======
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.345"
->>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
         tools:ignore="ContentDescription" />
 
     <ImageButton

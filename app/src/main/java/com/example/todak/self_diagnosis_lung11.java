@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import androidx.appcompat.app.AppCompatActivity;
 

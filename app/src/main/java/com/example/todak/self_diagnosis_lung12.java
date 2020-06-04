@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -22,7 +22,7 @@ public class self_diagnosis_lung12 extends AppCompatActivity {
         yes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(self_diagnosis_lung12.this, self_diagnosis_lung_result.class);
+                Intent intent = new Intent(self_diagnosis_lung12.this, self_diagnosis_lung_result2.class);
                 startActivity(intent);
             }
         });

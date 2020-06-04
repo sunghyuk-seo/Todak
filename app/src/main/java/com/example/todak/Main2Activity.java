@@ -40,11 +40,7 @@ public class Main2Activity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD:app/src/main/java/com/example/todak/Intro/Main2Activity.java
-                Intent intent = new Intent(Main2Activity.this, MapsActivity.class);
-=======
                 Intent intent = new Intent(Main2Activity.this, pathActivity.class);
->>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c:app/src/main/java/com/example/todak/Main2Activity.java
                 startActivity(intent);
             }
         });

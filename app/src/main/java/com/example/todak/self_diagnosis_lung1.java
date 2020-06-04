@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,6 +24,8 @@ public class self_diagnosis_lung1 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(self_diagnosis_lung1.this, self_diagnosis_lung2.class);
                 startActivity(intent);
+
+
             }
         });
 

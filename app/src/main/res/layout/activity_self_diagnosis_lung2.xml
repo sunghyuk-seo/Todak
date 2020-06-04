@@ -4,11 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context=".Intro.self_diagnosis_lung2">
-=======
     tools:context=".self_diagnosis_lung2">
->>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
 
     <ImageView
         android:id="@+id/q2"
