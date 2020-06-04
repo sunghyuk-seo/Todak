@@ -15,44 +15,46 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071" />
-
-
-    <CheckBox
-        android:id="@+id/발열"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="발열"
-
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="224dp" />
+        app:layout_constraintVertical_bias="0.068" />
 
     <CheckBox
-        android:id="@+id/마른기침"
+        android:id="@+id/yes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="마른 기침"
+        android:layout_marginStart="80dp"
 
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="161dp" />
+        android:layout_marginTop="36dp"
+
+        android:text="예"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/corona_question" />
 
     <CheckBox
-        android:id="@+id/피로감"
+        android:id="@+id/no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="피로감"
+        android:layout_marginTop="36dp"
 
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="105dp" />
+        android:layout_marginEnd="80dp"
 
-    <CheckBox
-        android:id="@+id/몸살"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="몸살"
+        android:text="아니요"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toEndOf="@+id/yes"
+        app:layout_constraintTop_toBottomOf="@+id/corona_question" />
 
-        tools:layout_editor_absoluteX="87dp"
-        tools:layout_editor_absoluteY="137dp" />
+    <TextView
+        android:id="@+id/QuestionNumber"
+        android:layout_width="47dp"
+        android:layout_height="29dp"
+        android:text="Q"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="50dp"
+        android:fontFamily="@font/dream"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

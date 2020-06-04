@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.AssetManager;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -52,6 +54,10 @@ public class doubt_Corona1 extends AppCompatActivity {
 
             TextView text =  (TextView)rowView.findViewById(R.id.corona_question);
             text.setText(questionNum[position]);
+
+            TextView QuestionNumber = (TextView)rowView.findViewById(R.id.QuestionNumber);
+            text.setText("Q" + (position+1));
+
 
             return rowView;
 
