@@ -27,7 +27,7 @@ public class self_diagnosis extends AppCompatActivity {
         lung.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(self_diagnosis.this, self_diagnosis_lung1.class);
+                Intent intent = new Intent(self_diagnosis.this, self_diagnosis_lung.class);
                 startActivity(intent);
             }
         });
