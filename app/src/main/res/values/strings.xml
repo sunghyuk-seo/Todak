@@ -4,11 +4,16 @@
     <string name="lung_question1">기침이 납니까?</string>
     <string name="lung_question2">기침을 잦게 자주 합니까?</string>
     <string name="lung_question3">기침을 콜록콜록 소리가 \n 나도록 크게 기침을 합니까?</string>
+<<<<<<< HEAD
     <string name="lung_question4">기침과 함께 \n 출혈이 있었습니까?</string>
+=======
+    <string name="lung_question4">평소 담배를 피웁니까?</string>
+>>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
     <string name="lung_question5">열이 있습니까?</string>
     <string name="lung_question6">콧물이 나옵니까?</string>
     <string name="lung_question7">호흡곤란이 있습니까?</string>
     <string name="lung_question8">호흡을 할 때 \n 쌔액~쌔액 소리가 납니까?</string>
+<<<<<<< HEAD
     <string name="lung_question9">가래가 나옵니까?</string>
     <string name="lung_question10">피가 섞인 \n 가래가 나옵니까?</string>
     <string name="lung_question11">가슴 안쪽이 아픕니까?</string>
@@ -16,4 +21,15 @@
     <string name="lung_result_text">진단결과</string>
     <string name="lung_result_answer">목감기가 의심됩니다.</string>
     <string name="title_activity_maps">Map</string>
+=======
+    <string name="lung_question9">가슴 안쪽이 아픕니까?</string>
+    <string name="lung_question10">가래가 나옵니까?</string>
+    <string name="lung_question11">피가 섞인 \n 가래가 나옵니까?</string>
+    <string name="lung_question12">기침과 함께 \n 출혈이 있었습니까?</string>
+    <string name="lung_result_text">진단결과</string>
+    <string name="lung_result_answer">목감기가 의심됩니다.</string>
+    <string name="lung_result_answer2">폐결핵이 의심됩니다.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+>>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
 </resources>

@@ -2,12 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.todak">
 
+<<<<<<< HEAD
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+=======
+    <uses-permission android:name="android.permission.INTERNET" />
+>>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
 
     <application
         android:allowBackup="true"
@@ -16,6 +20,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -52,6 +57,36 @@
         <activity android:name=".Intro.MainActivity" />
         <activity android:name=".Intro.Disease_search" />
         <activity android:name=".Intro.IntroActivity">
+=======
+        <activity android:name=".MapsActivity5"/>
+        <activity android:name=".MapsActivity4" />
+        <activity android:name=".MapsActivity3" />
+        <activity android:name=".MapsActivity2" />
+        <activity android:name=".pathActivity" />
+        <activity android:name=".MapsActivity1" />
+        <activity android:name=".doubt_Corona2" />
+        <activity android:name=".doubt_Corona1" />
+        <activity android:name=".self_diagnosis_lung_result2" />
+        <activity android:name=".self_diagnosis_lung_result" />
+        <activity android:name=".self_diagnosis_lung12" />
+        <activity android:name=".self_diagnosis_lung11" />
+        <activity android:name=".self_diagnosis_lung10" />
+        <activity android:name=".self_diagnosis_lung9" />
+        <activity android:name=".self_diagnosis_lung8" />
+        <activity android:name=".self_diagnosis_lung7" />
+        <activity android:name=".self_diagnosis_lung6" />
+        <activity android:name=".self_diagnosis_lung5" />
+        <activity android:name=".self_diagnosis_lung4" />
+        <activity android:name=".self_diagnosis_lung3" />
+        <activity android:name=".self_diagnosis_lung2" />
+        <activity android:name=".self_diagnosis_lung1" />
+        <activity android:name=".self_diagnosis" />
+        <activity android:name=".Doubt_search" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Disease_search" />
+        <activity android:name=".IntroActivity">
+>>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

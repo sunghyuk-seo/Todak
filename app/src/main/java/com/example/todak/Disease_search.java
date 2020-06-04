@@ -1,17 +1,24 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.InflateException;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.todak.SearchAdapter;
 import com.example.todak.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.zip.Inflater;
 
 public class Disease_search extends AppCompatActivity {
 
@@ -56,7 +63,33 @@ public class Disease_search extends AppCompatActivity {
                 search(text);
             }
         });
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                switch (position)
+                {
+                    case 0:
+                    {
+                        setContentView(R.layout.activity_doubt__corona1);
+                        Handler handle = new Handler();
+                        handle.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                Intent intent = new Intent(Disease_search.this,doubt_Corona1.class);
+                                startActivity(intent);
+                                finish();
+                            }
+                        }, 3000);
+
+
+                    }
+                }
+            }
+        });
     }
+
 
     private void search(String charText) {
         list.clear();

@@ -1,4 +1,4 @@
-package com.example.todak.Intro;
+package com.example.todak;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -8,9 +8,9 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
-import com.example.todak.Intro.FirstFragment;
-import com.example.todak.Intro.SecondFragment;
-import com.example.todak.Intro.ThirdFragment;
+import com.example.todak.FirstFragment;
+import com.example.todak.SecondFragment;
+import com.example.todak.ThirdFragment;
 import com.example.todak.R;
 
 import me.relex.circleindicator.CircleIndicator;

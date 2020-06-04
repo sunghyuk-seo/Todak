@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+<<<<<<< HEAD:app/src/main/res/layout/activity_self_diagnosis_lung_result2.xml
+    tools:context=".Intro.self_diagnosis_lung_result2">
+
+    <ImageView
+        android:id="@+id/lung_result2"
+        android:layout_width="399dp"
+        android:layout_height="399dp"
+        android:src="@drawable/result2"
+=======
+    tools:context=".doubt_Corona1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c:app/src/main/res/layout/activity_doubt__corona1.xml
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD:app/src/main/res/layout/activity_self_diagnosis_lung_result2.xml
+        app:layout_constraintVertical_bias="0.436"
+        tools:ignore="ContentDescription" />
+
+=======
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/corona_preventionrule" />
+>>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c:app/src/main/res/layout/activity_doubt__corona1.xml
+</androidx.constraintlayout.widget.ConstraintLayout>

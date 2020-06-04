@@ -13,13 +13,16 @@
         android:layout_width="322dp"
         android:layout_height="58dp"
         android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
         android:singleLine="false"
         android:text="병원찾기 기능을 이용해 근처에 있는 \n 병원을 찾을 수 있습니다."
+<<<<<<< HEAD
         android:gravity="center_horizontal"
+=======
+>>>>>>> 382d7f596a6b7fac2cdde1e5201594e20c93ad8c
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.231" />
@@ -28,10 +31,11 @@
         android:id="@+id/imageView2"
         android:layout_width="311dp"
         android:layout_height="388dp"
-        android:layout_marginTop="48dp"
         android:scaleType="fitXY"
         android:src="@drawable/location"
+        app:layout_constraintBottom_toTopOf="@id/editText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
