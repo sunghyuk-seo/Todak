@@ -55,8 +55,9 @@ public class doubt_Corona1 extends AppCompatActivity {
             TextView text =  (TextView)rowView.findViewById(R.id.corona_question);
             text.setText(questionNum[position]);
 
+            //Question Number set
             TextView QuestionNumber = (TextView)rowView.findViewById(R.id.QuestionNumber);
-            text.setText("Q" + (position+1));
+            QuestionNumber.setText("Q" + (position+1));
 
 
             return rowView;
