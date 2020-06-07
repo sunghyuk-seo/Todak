@@ -17,21 +17,19 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
 
+
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="240dp"
         android:layout_height="74dp"
-        android:textSize="30sp"
         android:text="~가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.045" />
-
-        app:layout_constraintVertical_bias="0.105" />
-        app:layout_constraintVertical_bias="0.024" />
 
     <CheckBox
         android:id="@+id/checkBox2"
@@ -102,12 +100,13 @@
         android:layout_width="240dp"
         android:layout_height="74dp"
         android:text="~가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.756" />
+        app:layout_constraintVertical_bias="0.754" />
 
     <Button
         android:id="@+id/button1"
@@ -121,6 +120,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.912" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
