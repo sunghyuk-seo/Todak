@@ -16,7 +16,6 @@ import java.io.FileOutputStream;
 import java.util.Calendar;
 
 public class HospitalDiary extends AppCompatActivity {
-
     DatePicker datePicker;
     TextView viewDatePick;
     EditText edtDiary;
@@ -61,28 +60,17 @@ public class HospitalDiary extends AppCompatActivity {
 
                 FileOutputStream fos = null;
 
-<<<<<<< HEAD
-                try {
-                    fos = openFileOutput(readDay, MODE_NO_LOCALIZED_COLLATORS);
-                    String content = edtDiary.getText().toString();
-
-                    fos.write(content.getBytes());
-
-=======
                 try{
                     fos = openFileOutput(readDay, MODE_NO_LOCALIZED_COLLATORS);
                     String content = edtDiary.getText().toString();
                     fos.write(content.getBytes());
->>>>>>> 926ce667a2c0359e9ee7c6bce063002fd75d04cb
                     fos.close();
 
                     Toast.makeText(getApplicationContext(), "일기 저장됨", Toast.LENGTH_SHORT).show();
+
                 } catch (Exception e) {
                     e.printStackTrace();
                     Toast.makeText(getApplicationContext(), "오류", Toast.LENGTH_SHORT).show();
-<<<<<<< HEAD
-                }
-=======
                 }
 
             }
@@ -116,10 +104,7 @@ public class HospitalDiary extends AppCompatActivity {
 
         });
 
->>>>>>> 926ce667a2c0359e9ee7c6bce063002fd75d04cb
 
-                }
-            });
     }
 
     private void checkedDay(int year, int monthOfYear, int dayOfMonth) {
@@ -133,15 +118,8 @@ public class HospitalDiary extends AppCompatActivity {
             byte[] fileData = new byte[fis.available()];
             fis.read(fileData);
             fis.close();
-<<<<<<< HEAD
-
-            String str = new String(fileData, "UTF-8");
-            // 읽어서 토스트 메시지로 보여줌
-            Toast.makeText(getApplicationContext(), "일기 써둔 날", Toast.LENGTH_SHORT).show();
-=======
             String str = new String(fileData, "UTF-8");
             Toast.makeText(getApplicationContext(), "병원 갔던 날", Toast.LENGTH_SHORT).show();
->>>>>>> 926ce667a2c0359e9ee7c6bce063002fd75d04cb
             edtDiary.setText(str);
             btnSave.setText("일기 저장");
         } catch (Exception e) {
@@ -153,6 +131,8 @@ public class HospitalDiary extends AppCompatActivity {
 
 
     }
+
+
 
 
 }
