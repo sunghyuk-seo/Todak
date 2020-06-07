@@ -19,7 +19,7 @@
         <activity android:name=".pathActivity" />
         <activity android:name=".MapsActivity1" />
         <activity android:name=".doubt_Corona2" />
-        <activity android:name=".doubt_Corona1" />
+        <activity android:name=".doubt_Corona_main" />
         <activity android:name=".self_diagnosis_lung_result2" />
         <activity android:name=".self_diagnosis_lung_result" />
         <activity android:name=".self_diagnosis_lung12" />
