@@ -22,6 +22,7 @@ public class HospitalDiary extends AppCompatActivity {
     EditText edtDiary;   //  edtDiary - 선택한 날짜의 일기를 쓰거나 기존에 저장된 일기가 있다면 보여주고 수정하는 영역
     Button btnSave;   //  btnSave - 선택한 날짜의 일기 저장 및 수정(덮어쓰기) 버튼
     String fileName;   //  fileName - 돌고 도는 선택된 날짜의 파일 이름
+    Button btnDelete;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +32,7 @@ public class HospitalDiary extends AppCompatActivity {
         viewDatePick = (TextView) findViewById(R.id.viewDatePick);
         edtDiary = (EditText) findViewById(R.id.edtDiary);
         btnSave = (Button) findViewById(R.id.btnSave);
+        btnDelete = (Button) findViewById(R.id.btnDelete);
 
         Calendar c = Calendar.getInstance();
         int cYear = c.get(Calendar.YEAR);
@@ -53,6 +55,7 @@ public class HospitalDiary extends AppCompatActivity {
                 saveDiary(fileName);
             }
 
+
             @SuppressLint("WrongConstant")
             private void saveDiary(String readDay) {
 
@@ -72,10 +75,38 @@ public class HospitalDiary extends AppCompatActivity {
 
                 } catch (Exception e) {
                     e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), "오류오류", Toast.LENGTH_SHORT).show();
-
+                    Toast.makeText(getApplicationContext(), "오류", Toast.LENGTH_SHORT).show();
                 }
+
             }
+
+        });
+
+        btnDelete.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                deleteDiary(fileName);
+            }
+
+
+            @SuppressLint("WrongConstant")
+            private void deleteDiary(String readDay) {
+
+                FileOutputStream fos = null;
+
+                try{
+                    fos = openFileOutput(readDay, MODE_NO_LOCALIZED_COLLATORS); //MODE_WORLD_WRITEABLE
+                    EditText text = findViewById(R.id.edtDiary);
+                    text.setText("");
+                    Toast.makeText(getApplicationContext(), "일기 삭제됨", Toast.LENGTH_SHORT).show();
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Toast.makeText(getApplicationContext(), "오류", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+
         });
 
 
@@ -93,23 +124,23 @@ public class HospitalDiary extends AppCompatActivity {
         FileInputStream fis = null;
         try {
             fis = openFileInput(fileName);
-
             byte[] fileData = new byte[fis.available()];
             fis.read(fileData);
             fis.close();
-
-            String str = new String(fileData, "EUC-KR");
+            String str = new String(fileData, "UTF-8");
             // 읽어서 토스트 메시지로 보여줌
-            Toast.makeText(getApplicationContext(), "일기 써둔 날", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "병원 갔던 날", Toast.LENGTH_SHORT).show();
             edtDiary.setText(str);
-            btnSave.setText("수정하기");
+            btnSave.setText("일기 저장");
         } catch (Exception e) { // UnsupportedEncodingException , FileNotFoundException , IOException
             // 없어서 오류가 나면 일기가 없는 것 -> 일기를 쓰게 한다.
-            Toast.makeText(getApplicationContext(), "일기 없는 날", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "병원 안 갔던 날", Toast.LENGTH_SHORT).show();
             edtDiary.setText("");
-            btnSave.setText("새 일기 저장");
+            btnSave.setText("일기 저장");
             e.printStackTrace();
         }
+
+
     }
 
 

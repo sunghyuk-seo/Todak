@@ -10,16 +10,16 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="240dp"
-<<<<<<< HEAD
-        android:layout_height="wrap_content"
-=======
         android:layout_height="74dp"
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
         android:text="~가 있습니까"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,20 +27,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.105" />
-=======
         app:layout_constraintVertical_bias="0.024" />
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="240dp"
-<<<<<<< HEAD
-        android:layout_height="wrap_content"
-=======
         android:layout_height="74dp"
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
         android:text="!가 있습니까"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,20 +41,13 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-<<<<<<< HEAD
         app:layout_constraintVertical_bias="0.194" />
-=======
         app:layout_constraintVertical_bias="0.155" />
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="240dp"
-<<<<<<< HEAD
-        android:layout_height="wrap_content"
-=======
         android:layout_height="74dp"
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
         android:text="~가 있습니까"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,11 +60,7 @@
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="240dp"
-<<<<<<< HEAD
-        android:layout_height="wrap_content"
-=======
         android:layout_height="74dp"
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
         android:text="~가 있습니까"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,11 +73,7 @@
     <CheckBox
         android:id="@+id/checkBox5"
         android:layout_width="240dp"
-<<<<<<< HEAD
-        android:layout_height="wrap_content"
-=======
         android:layout_height="74dp"
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
         android:text="~가 있습니까"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -108,9 +86,6 @@
     <CheckBox
         android:id="@+id/checkBox6"
         android:layout_width="240dp"
-<<<<<<< HEAD
-        android:layout_height="wrap_content"
-=======
         android:layout_height="74dp"
         android:text="~가 있습니까"
         android:textSize="30sp"
@@ -125,7 +100,6 @@
         android:id="@+id/checkBox7"
         android:layout_width="240dp"
         android:layout_height="74dp"
->>>>>>> 584615c307df3c7c45f14bd391b7269bcd040147
         android:text="~가 있습니까"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
