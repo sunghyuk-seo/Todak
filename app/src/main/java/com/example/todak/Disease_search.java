@@ -57,6 +57,7 @@ public class Disease_search extends AppCompatActivity {
 
             }
 
+            //의심질병진단 검색기능
             @Override
             public void afterTextChanged(Editable editable) {
                 String text = editSearch.getText().toString();
@@ -64,6 +65,7 @@ public class Disease_search extends AppCompatActivity {
             }
         });
 
+        //질병 리스트에 대한 리스너
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
