@@ -6,38 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".self_diagnosis_lung">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="240dp"
-        android:layout_height="74dp"
-        android:textSize="30sp"
+        android:layout_height="wrap_content"
         android:text="~가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.105" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="240dp"
-        android:layout_height="74dp"
-        android:textSize="30sp"
+        android:layout_height="wrap_content"
         android:text="!가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.184" />
+        app:layout_constraintVertical_bias="0.194" />
 
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="240dp"
-        android:layout_height="74dp"
-        android:textSize="30sp"
+        android:layout_height="wrap_content"
         android:text="~가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -48,9 +54,9 @@
     <CheckBox
         android:id="@+id/checkBox4"
         android:layout_width="240dp"
-        android:layout_height="74dp"
-        android:textSize="30sp"
+        android:layout_height="wrap_content"
         android:text="~가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -61,9 +67,9 @@
     <CheckBox
         android:id="@+id/checkBox5"
         android:layout_width="240dp"
-        android:layout_height="74dp"
-        android:textSize="30sp"
+        android:layout_height="wrap_content"
         android:text="~가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -74,9 +80,9 @@
     <CheckBox
         android:id="@+id/checkBox6"
         android:layout_width="240dp"
-        android:layout_height="74dp"
-        android:textSize="30sp"
+        android:layout_height="wrap_content"
         android:text="~가 있습니까"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
