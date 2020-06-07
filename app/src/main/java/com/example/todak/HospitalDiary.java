@@ -58,27 +58,22 @@ public class HospitalDiary extends AppCompatActivity {
 
                 FileOutputStream fos = null;
 
-                try{
-                    fos = openFileOutput(readDay, MODE_NO_LOCALIZED_COLLATORS); //MODE_WORLD_WRITEABLE
+                try {
+                    fos = openFileOutput(readDay, MODE_NO_LOCALIZED_COLLATORS);
                     String content = edtDiary.getText().toString();
 
-                    // String.getBytes() = 스트링을 배열형으로 변환?
                     fos.write(content.getBytes());
-                    //fos.flush();
+
                     fos.close();
 
-                    // getApplicationContext() = 현재 클래스.this ?
                     Toast.makeText(getApplicationContext(), "일기 저장됨", Toast.LENGTH_SHORT).show();
-
                 } catch (Exception e) {
                     e.printStackTrace();
-                    Toast.makeText(getApplicationContext(), "오류오류", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "오류", Toast.LENGTH_SHORT).show();
+                }
 
                 }
-            }
-        });
-
-
+            });
     }
 
     private void checkedDay(int year, int monthOfYear, int dayOfMonth) {
@@ -88,8 +83,6 @@ public class HospitalDiary extends AppCompatActivity {
         // 파일 이름을 만들어준다. 파일 이름은 "20170318.txt" 이런식으로 나옴
         fileName = year + "" + monthOfYear + "" + dayOfMonth + ".txt";
 
-        // 읽어봐서 읽어지면 일기 가져오고
-        // 없으면 catch 그냥 살아? 아주 위험한 생각같다..
         FileInputStream fis = null;
         try {
             fis = openFileInput(fileName);
@@ -98,7 +91,7 @@ public class HospitalDiary extends AppCompatActivity {
             fis.read(fileData);
             fis.close();
 
-            String str = new String(fileData, "EUC-KR");
+            String str = new String(fileData, "UTF-8");
             // 읽어서 토스트 메시지로 보여줌
             Toast.makeText(getApplicationContext(), "일기 써둔 날", Toast.LENGTH_SHORT).show();
             edtDiary.setText(str);

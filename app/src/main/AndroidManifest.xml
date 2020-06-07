@@ -39,6 +39,7 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Disease_search" />
+        <activity android:name=".HospitalDiary" />
         <activity android:name=".IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
