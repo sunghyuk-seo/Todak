@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/common_google_signin_btn_text_dark_default"
-    tools:context=".Intro.Main2Activity">
+    tools:context=".Main2Activity">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -55,6 +55,16 @@
                 android:scaleType="centerInside"
 
                 android:src="@drawable/path"
+                tools:ignore="ContentDescription" />
+
+            <ImageButton
+                android:id="@+id/diary"
+                android:layout_width="match_parent"
+                android:layout_height="249dp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:layout_margin="10dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/diary"
                 tools:ignore="ContentDescription" />
 
         </LinearLayout>

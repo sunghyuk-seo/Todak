@@ -4,6 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".doubt_Corona2">
+    tools:context=".MapsActivity1">
+
+    <WebView
+        android:id="@+id/webview3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
