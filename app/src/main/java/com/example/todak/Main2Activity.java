@@ -20,6 +20,7 @@ public class Main2Activity extends AppCompatActivity {
         ImageButton button1 = (ImageButton)findViewById(R.id.self);
         ImageButton button2 = (ImageButton)findViewById(R.id.doubt);
         ImageButton button3 = (ImageButton)findViewById(R.id.path);
+        ImageButton button4 = (ImageButton)findViewById(R.id.diary);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +42,14 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Main2Activity.this, pathActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Main2Activity.this, HospitalDiary.class);
                 startActivity(intent);
             }
         });
