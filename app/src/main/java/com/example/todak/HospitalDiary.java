@@ -60,7 +60,7 @@ public class HospitalDiary extends AppCompatActivity {
 
                 FileOutputStream fos = null;
 
-                try{
+                try {
                     fos = openFileOutput(readDay, MODE_NO_LOCALIZED_COLLATORS);
                     String content = edtDiary.getText().toString();
                     fos.write(content.getBytes());
@@ -89,7 +89,7 @@ public class HospitalDiary extends AppCompatActivity {
 
                 FileOutputStream fos = null;
 
-                try{
+                try {
                     fos = openFileOutput(readDay, MODE_NO_LOCALIZED_COLLATORS); //MODE_WORLD_WRITEABLE
                     EditText text = findViewById(R.id.edtDiary);
                     text.setText(null);
@@ -113,23 +113,24 @@ public class HospitalDiary extends AppCompatActivity {
 
         FileInputStream fis = null;
         try {
-                fis = openFileInput(fileName);
-                byte[] fileData = new byte[fis.available()];
-                fis.read(fileData);
-                fis.close();
-                String str = new String(fileData, "UTF-8");
-                edtDiary.setText(str);
-                btnSave.setText("일기 저장");
+
+            fis = openFileInput(fileName);
+            byte[] fileData = new byte[fis.available()];
+            fis.read(fileData);
+            fis.close();
+            String str = new String(fileData, "UTF-8");
+            edtDiary.setText(str);
+            btnSave.setText("일기 저장");
         } catch (Exception e) {
-                edtDiary.setText("");
-                btnSave.setText("일기 저장");
-                e.printStackTrace();
-            }
+            edtDiary.setText("");
+            btnSave.setText("일기 저장");
+            e.printStackTrace();
+
         }
 
 
     }
-
+}
 
 
 
