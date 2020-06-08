@@ -77,7 +77,7 @@ public class Disease_search extends AppCompatActivity {
                         handle.postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                Intent intent = new Intent(Disease_search.this,doubt_Corona1.class);
+                                Intent intent = new Intent(Disease_search.this,ListViewCheckboxesActivity.class);
                                 startActivity(intent);
                                 finish();
                             }
