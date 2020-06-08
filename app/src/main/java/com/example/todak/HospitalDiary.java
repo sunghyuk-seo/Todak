@@ -119,11 +119,9 @@ public class HospitalDiary extends AppCompatActivity {
             fis.read(fileData);
             fis.close();
             String str = new String(fileData, "UTF-8");
-            Toast.makeText(getApplicationContext(), "병원 갔던 날", Toast.LENGTH_SHORT).show();
             edtDiary.setText(str);
             btnSave.setText("일기 저장");
         } catch (Exception e) {
-            Toast.makeText(getApplicationContext(), "병원 안 갔던 날", Toast.LENGTH_SHORT).show();
             edtDiary.setText("");
             btnSave.setText("일기 저장");
             e.printStackTrace();
