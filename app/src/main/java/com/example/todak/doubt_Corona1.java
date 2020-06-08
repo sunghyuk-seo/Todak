@@ -18,6 +18,8 @@ import android.widget.TextView;
 
 import com.example.todak.R;
 
+import java.util.ArrayList;
+
 public class doubt_Corona1 extends AppCompatActivity {
     String[] questionNum = {
             "최근 발열이 있었습니까?","마른 기침을 합니까?","피로감을 느낍니까?","몸살이 있습니까?","인후통이 있습니까?"
@@ -33,6 +35,8 @@ public class doubt_Corona1 extends AppCompatActivity {
         QuestionList adapter = new QuestionList(doubt_Corona1.this);
         ListView listView = (ListView)findViewById(R.id.listViewCorona);
         listView.setAdapter(adapter);
+
+        
 
     }
 

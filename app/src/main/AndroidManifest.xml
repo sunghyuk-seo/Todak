@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".self_diagnosis_lung"></activity>
         <activity android:name=".MapsActivity5" />
         <activity android:name=".MapsActivity4" />
@@ -24,15 +25,16 @@
         <activity android:name=".self_diagnosis" />
         <activity android:name=".Doubt_search" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Disease_search" />
-        <activity android:name=".IntroActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>lter>
+
+        <activity android:name=".Disease_search" />
+        <activity android:name=".IntroActivity"/>
     </application>
 
 </manifest>
