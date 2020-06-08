@@ -6,7 +6,7 @@
 
     <TextView android:layout_width="fill_parent"
         android:layout_height="wrap_content" android:padding="10dp"
-        android:text="@string/some_text" android:textSize="20sp" />
+        android:text="some_text" android:textSize="20sp" />
 
 
 
