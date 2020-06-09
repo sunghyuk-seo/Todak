@@ -15,7 +15,7 @@ public class self_diagnosis_lung_result extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_self_diagnosis_lung_result);
 
-        TextView cold = (TextView)findViewById(R.id.cold); /*TextView선언*/
+        TextView cold = (TextView)findViewById(R.id.cold);
         TextView corona = (TextView)findViewById(R.id.corona);
         TextView pneumonia = (TextView)findViewById(R.id.pneumonia);
         TextView tuberculosis = (TextView)findViewById(R.id.tuberculosis);
@@ -28,7 +28,7 @@ public class self_diagnosis_lung_result extends AppCompatActivity {
         Intent intent = getIntent();
 
         String Cold = intent.getExtras().getString("감기"); /*String형*/
-        cold.setText(cold + "%");
+        cold.setText(Cold + "%");
 
         String Corona = intent.getExtras().getString("코로나"); /*String형*/
         corona.setText(Corona + "%");

@@ -38,7 +38,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="감기" />
 
                 <TextView
                     android:id="@+id/cold"
@@ -69,12 +69,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="코로나" />
 
                 <TextView
                     android:id="@+id/corona"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />
@@ -99,12 +100,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="폐렴" />
 
                 <TextView
                     android:id="@+id/pneumonia"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />
@@ -129,12 +131,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="폐결핵" />
 
                 <TextView
                     android:id="@+id/tuberculosis"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />
@@ -159,12 +162,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="천식" />
 
                 <TextView
                     android:id="@+id/asthma"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />
@@ -189,12 +193,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="급성기관지염" />
 
                 <TextView
                     android:id="@+id/acute_bronchitis"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />
@@ -219,12 +224,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="기흉" />
 
                 <TextView
                     android:id="@+id/pneumothorax"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />
@@ -249,12 +255,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="알레르기성 비염" />
 
                 <TextView
                     android:id="@+id/allergic_coryza"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />
@@ -279,12 +286,13 @@
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
                     android:gravity="center"
-                    android:text="TextView" />
+                    android:text="과호흡증후군" />
 
                 <TextView
                     android:id="@+id/hyperventilation_syndrome"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="TextView"
                     android:textSize="20dp" />

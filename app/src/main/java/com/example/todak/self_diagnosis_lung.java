@@ -198,7 +198,7 @@ public class self_diagnosis_lung extends AppCompatActivity {
                     hyperventilation_syndrome += 1;
                 }
 
-                String[] array = {String.valueOf((corona / 9) * 100), String.valueOf((cold / 13) * 100), String.valueOf((pneumonia / 5) * 100),
+                String[] array = {String.valueOf((cold / 13) * 100), String.valueOf((corona / 9) * 100), String.valueOf((pneumonia / 5) * 100),
                         String.valueOf((tuberculosis / 8) * 100), String.valueOf((asthma / 5) * 100), String.valueOf((acute_bronchitis / 4) * 100),
                         String.valueOf((pneumothorax / 5) * 100), String.valueOf((allergic_coryza / 6) * 100), String.valueOf((hyperventilation_syndrome / 6) * 100)};
 
