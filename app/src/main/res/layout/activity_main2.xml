@@ -7,67 +7,112 @@
     android:background="@color/common_google_signin_btn_text_dark_default"
     tools:context=".Main2Activity">
 
-    <ScrollView
-        android:id="@+id/scrollView"
+
+    <View
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="184dp"
+    android:background="#84FBCC"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="106dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.384"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cookierun2"
+        android:text="토닥"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true"
-        android:gravity="center"
+        android:layout_height="447dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/view">
 
-        <LinearLayout
+
+        <Button
+            android:id="@+id/self"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/common_google_signin_btn_text_dark_default"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_custom1"
+            android:drawableLeft="@drawable/self_small"
+            android:drawablePadding="15sp"
+            android:fontFamily="@font/cookierun2"
+            android:gravity="left|center_vertical"
+            android:padding="13sp"
+            android:text="자가진단                         >"
+            android:textColor="#FD7474"
+            android:textSize="24sp" />
 
-            <ImageButton
-                android:id="@+id/self"
-                android:layout_width="match_parent"
-                android:layout_height="249dp"
-                android:background="@android:color/background_light"
-                android:layout_margin="10dp"
-                android:scaleType="centerInside"
+        <Button
+            android:id="@+id/doubt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_custom1"
+            android:drawableLeft="@drawable/doubt_small"
+            android:drawablePadding="15sp"
+            android:fontFamily="@font/cookierun2"
+            android:gravity="left|center_vertical"
+            android:padding="13sp"
+            android:text="예상질병진단                  >"
+            android:textColor="#FBD04C"
+            android:textSize="24sp" />
 
-                android:src="@drawable/self"
-                tools:ignore="ContentDescription" />
+        <Button
+            android:id="@+id/path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_custom1"
+            android:drawableLeft="@drawable/path_small"
+            android:drawablePadding="15sp"
+            android:fontFamily="@font/cookierun2"
+            android:gravity="left|center_vertical"
+            android:padding="13sp"
+            android:text="병원찾기                         >"
+            android:textColor="#2FEDDC"
+            android:textSize="24sp" />
 
-            <ImageButton
-                android:id="@+id/doubt"
-                android:layout_width="match_parent"
-                android:layout_height="249dp"
-                android:background="@color/common_google_signin_btn_text_dark_default"
-                android:layout_margin="10dp"
-                android:scaleType="centerInside"
+        <Button
+            android:id="@+id/diary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_custom1"
+            android:drawableLeft="@drawable/diary_small"
+            android:drawablePadding="15sp"
+            android:fontFamily="@font/cookierun2"
+            android:gravity="left|center_vertical"
+            android:padding="13sp"
+            android:text="진료일지                         >"
+            android:textColor="#DA47F3"
+            android:textSize="24sp" />
 
-                android:src="@drawable/doubt"
-                tools:ignore="ContentDescription" />
-
-            <ImageButton
-                android:id="@+id/path"
-                android:layout_width="match_parent"
-                android:layout_height="249dp"
-                android:background="@color/common_google_signin_btn_text_dark_default"
-                android:layout_margin="10dp"
-                android:scaleType="centerInside"
-
-                android:src="@drawable/path"
-                tools:ignore="ContentDescription" />
-
-            <ImageButton
-                android:id="@+id/diary"
-                android:layout_width="match_parent"
-                android:layout_height="249dp"
-                android:background="@color/common_google_signin_btn_text_dark_default"
-                android:layout_margin="10dp"
-                android:scaleType="centerInside"
-                android:src="@drawable/diary"
-                tools:ignore="ContentDescription" />
-
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

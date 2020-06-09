@@ -24,6 +24,8 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/cookierun2"
         android:text="부위 별로 아픈 곳을 자가진단 해보세요!"
+        android:textColor="#000000"
+
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

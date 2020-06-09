@@ -14,6 +14,7 @@
             android:id="@+id/label"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:fontFamily="@font/cookierun2"
             android:gravity="left|center_vertical"
             android:paddingLeft="5dp"
             android:textColor="#000000"
