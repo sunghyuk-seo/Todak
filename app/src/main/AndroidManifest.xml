@@ -18,8 +18,8 @@
         <activity android:name=".MapsActivity2" />
         <activity android:name=".pathActivity" />
         <activity android:name=".MapsActivity1" />
-        <activity android:name=".doubt_Corona2" />
-        <activity android:name=".doubt_Corona1" />
+        <activity android:name=".DoubtCorona.doubt_Corona2" />
+        <activity android:name=".DoubtCorona.doubt_Corona1" />
         <activity android:name=".HospitalDiary"/>
         <activity android:name=".self_diagnosis" />
         <activity android:name=".Doubt_search" />

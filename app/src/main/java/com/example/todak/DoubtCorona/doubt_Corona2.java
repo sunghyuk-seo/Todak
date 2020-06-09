@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.DoubtCorona;
 
 import androidx.appcompat.app.AppCompatActivity;
 

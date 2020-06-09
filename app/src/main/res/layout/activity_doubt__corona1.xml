@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".doubt_Corona1">
+    tools:context=".DoubtCorona.doubt_Corona1">
 
     <ImageView
         android:id="@+id/imageView5"
