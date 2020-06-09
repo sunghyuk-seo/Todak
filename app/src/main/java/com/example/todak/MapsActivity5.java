@@ -27,7 +27,7 @@ public class MapsActivity5 extends AppCompatActivity {
 
         webSettings5.setJavaScriptEnabled(true);
 
-        webView5.loadUrl("https://www.google.co.kr/maps/search/%EC%A0%95%ED%98%95%EC%99%B8%EA%B3%BC/@37.2354017,127.0368153,13z/data=!3m1!4b1?hl=ko");
+        webView5.loadUrl("https://www.google.co.kr/maps/search/%EC%A0%95%ED%98%95%EC%99%B8%EA%B3%BC/@37.2776029,127.044142,16.5z?hl=ko");
     }
 
 
