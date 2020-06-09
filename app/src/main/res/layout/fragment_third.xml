@@ -20,6 +20,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/cookierun2"
         android:text="그동한 궁금했던 질병들을 찾아볼 수 있습니다."
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/startbutton"
