@@ -3,6 +3,7 @@ package com.example.todak;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,10 +18,10 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        ImageButton button1 = (ImageButton)findViewById(R.id.self);
-        ImageButton button2 = (ImageButton)findViewById(R.id.doubt);
-        ImageButton button3 = (ImageButton)findViewById(R.id.path);
-        ImageButton button4 = (ImageButton)findViewById(R.id.diary);
+        Button button1 = (Button)findViewById(R.id.self);
+        Button button2 = (Button)findViewById(R.id.doubt);
+        Button button3 = (Button)findViewById(R.id.path);
+        Button button4 = (Button)findViewById(R.id.diary);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
