@@ -7,11 +7,15 @@
     android:layout_height="match_parent">
 
     <ScrollView
-        android:id="@+id/scrollView3"
+        android:id="@+id/scrollView_Corona"
         android:layout_width="413dp"
         android:layout_height="352dp"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="189dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="189dp"
+        app:layout_constraintBottom_toTopOf="@id/Q1_resultbutton"
+        app:layout_constraintTop_toBottomOf="@id/Corona_top_text"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -37,7 +41,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:checked="false"
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -60,7 +67,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -83,7 +92,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -106,7 +117,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -129,7 +142,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -152,7 +167,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -175,7 +192,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -198,7 +217,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -221,7 +242,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -245,7 +268,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -269,7 +294,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -293,7 +320,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -317,7 +346,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -341,7 +372,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
             </LinearLayout>
 
@@ -364,7 +397,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -388,7 +423,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -412,7 +449,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -436,7 +475,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -460,7 +501,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -484,7 +527,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text=""
+                    android:onClick="onCheckButtonListener"
+                    />
 
 
             </LinearLayout>
@@ -494,11 +539,12 @@
     </ScrollView>
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/Corona_top_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/cookierun2"
-        android:text="TextView"
+        android:text="코로나 바이러스 의심 진단"
+        android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/scrollView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
