@@ -23,6 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -54,6 +55,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -85,6 +87,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -116,6 +119,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -147,6 +151,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -178,6 +183,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -209,6 +215,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -240,6 +247,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -271,6 +279,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:layout_margin="5dp"
                 android:orientation="horizontal">
 
                 <ImageView
