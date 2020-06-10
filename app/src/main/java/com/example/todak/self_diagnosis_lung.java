@@ -46,7 +46,6 @@ public class self_diagnosis_lung extends AppCompatActivity {
         final CheckBox cb21 = (CheckBox) findViewById(R.id.checkBox21);
         final CheckBox cb22 = (CheckBox) findViewById(R.id.checkBox22);
         final CheckBox cb23 = (CheckBox) findViewById(R.id.checkBox23);
-        final CheckBox cb24 = (CheckBox) findViewById(R.id.checkBox24);
 
         cb1.setChecked(false);
         cb2.setChecked(false);
@@ -71,7 +70,6 @@ public class self_diagnosis_lung extends AppCompatActivity {
         cb21.setChecked(false);
         cb22.setChecked(false);
         cb23.setChecked(false);
-        cb24.setChecked(false);
 
         Button submit = (Button) findViewById(R.id.submit);
         submit.setOnClickListener(new View.OnClickListener() {
@@ -191,16 +189,14 @@ public class self_diagnosis_lung extends AppCompatActivity {
                 if (cb22.isChecked()) {
                     hyperventilation_syndrome += 1;
                 }
+
                 if (cb23.isChecked()) {
-                    hyperventilation_syndrome += 1;
-                }
-                if (cb24.isChecked()) {
                     hyperventilation_syndrome += 1;
                 }
 
                 String[] array = {String.valueOf((cold / 13) * 100), String.valueOf((corona / 9) * 100), String.valueOf((pneumonia / 5) * 100),
                         String.valueOf((tuberculosis / 8) * 100), String.valueOf((asthma / 5) * 100), String.valueOf((acute_bronchitis / 4) * 100),
-                        String.valueOf((pneumothorax / 5) * 100), String.valueOf((allergic_coryza / 6) * 100), String.valueOf((hyperventilation_syndrome / 6) * 100)};
+                        String.valueOf((pneumothorax / 5) * 100), String.valueOf((allergic_coryza / 6) * 100), String.valueOf((hyperventilation_syndrome / 5) * 100)};
 
                 send(array);
 
