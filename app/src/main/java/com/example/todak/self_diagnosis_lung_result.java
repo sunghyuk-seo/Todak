@@ -62,5 +62,14 @@ public class self_diagnosis_lung_result extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button path = (Button) findViewById(R.id.path);
+        path.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(self_diagnosis_lung_result.this, pathActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
