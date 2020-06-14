@@ -75,15 +75,15 @@ public class self_diagnosis_lung extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                float cold = 0; // 감기
-                float corona = 0; // 코로나
-                float pneumonia = 0; //폐렴
-                float tuberculosis = 0; // 폐결핵
-                float asthma = 0; //천식
-                float acute_bronchitis = 0; //급성기관지염
-                float pneumothorax = 0; //기흉
-                float allergic_coryza = 0; //알레르기성 비염
-                float hyperventilation_syndrome = 0; // 과호흡증후군
+                double cold = 0; // 감기
+                double corona = 0; // 코로나
+                double pneumonia = 0; //폐렴
+                double tuberculosis = 0; // 폐결핵
+                double asthma = 0; //천식
+                double acute_bronchitis = 0; //급성기관지염
+                double pneumothorax = 0; //기흉
+                double allergic_coryza = 0; //알레르기성 비염
+                double hyperventilation_syndrome = 0; // 과호흡증후군
 
 
                 if (cb1.isChecked()) {
@@ -194,9 +194,11 @@ public class self_diagnosis_lung extends AppCompatActivity {
                     hyperventilation_syndrome += 1;
                 }
 
-                String[] array = {String.valueOf((cold / 13) * 100), String.valueOf((corona / 9) * 100), String.valueOf((pneumonia / 5) * 100),
-                        String.valueOf((tuberculosis / 8) * 100), String.valueOf((asthma / 5) * 100), String.valueOf((acute_bronchitis / 4) * 100),
-                        String.valueOf((pneumothorax / 5) * 100), String.valueOf((allergic_coryza / 6) * 100), String.valueOf((hyperventilation_syndrome / 5) * 100)};
+                String[] array = {String.valueOf(Math.round(((cold / 13) * 100)* 100)/100.0), String.valueOf(Math.round(((corona / 9) * 100)* 100)/100.0),
+                        String.valueOf(Math.round(((pneumonia / 5) * 100)* 100)/100.0), String.valueOf(Math.round(((tuberculosis / 8) * 100)* 100)/100.0),
+                        String.valueOf(Math.round(((asthma / 5) * 100)* 100)/100.0), String.valueOf(Math.round(((acute_bronchitis / 4) * 100)* 100)/100.0),
+                        String.valueOf(Math.round(((pneumothorax / 5) * 100)* 100)/100.0), String.valueOf(Math.round(((allergic_coryza / 6) * 100)* 100)/100.0),
+                        String.valueOf(Math.round(((hyperventilation_syndrome / 5) * 100)* 100)/100.0)};
                 
                 
                 send(array);
@@ -208,8 +210,8 @@ public class self_diagnosis_lung extends AppCompatActivity {
                 asthma = 0; //천식
                 acute_bronchitis = 0; //급성기관지염
                 pneumothorax = 0; //기흉
-                allergic_coryza = 0; //알레르기성 비염
-                hyperventilation_syndrome = 0; // 과호흡증후군
+                allergic_coryza = 0;
+                hyperventilation_syndrome = 0;
 
             }
 

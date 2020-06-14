@@ -32,7 +32,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="503dp"
+        android:layout_height="550dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.071"
@@ -281,7 +281,7 @@
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:background="@drawable/edge"
-                    android:text="급성기관지염"
+                    android:text="급성\n기관지염"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
@@ -441,16 +441,36 @@
 
             </LinearLayout>
 
-            <Button
-                android:id="@+id/back"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
                 android:layout_weight="1"
-                android:text="다시하기"
-                android:background="@drawable/button_custom1"
-                android:fontFamily="@font/cookierun2"
-                android:textSize="20sp" />
+                android:orientation="horizontal">
+                android:layout_margin="5dp"
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_custom1"
+                    android:fontFamily="@font/cookierun2"
+                    android:text="다시하기"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_custom1"
+                    android:fontFamily="@font/cookierun2"
+                    android:text="병원찾기"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
