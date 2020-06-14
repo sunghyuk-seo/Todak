@@ -104,7 +104,7 @@ public class doubt_Corona_Question extends AppCompatActivity {
 
             case R.id.Q1_8c:
             {
-
+                score +=1;
             }
 
             case R.id.Q1_9c:
@@ -114,7 +114,7 @@ public class doubt_Corona_Question extends AppCompatActivity {
 
             case R.id.Q1_10c:
             {
-
+                score +=1;
             }
 
             case R.id.Q1_11c:
@@ -124,52 +124,28 @@ public class doubt_Corona_Question extends AppCompatActivity {
 
             case R.id.Q1_12c:
             {
-
+                score +=2;
             }
 
             case R.id.Q1_13c:
             {
-                score +=1;
+                score +=2;
             }
 
             case R.id.Q1_14c:
             {
-                score +=1;
+                score +=2;
             }
 
             case R.id.Q1_15c:
             {
-                score +=1;
+                score +=2;
             }
 
             case R.id.Q1_16c:
             {
-                score +=1;
+                score +=2;
             }
-
-            case R.id.Q1_17c:
-            {
-                score +=1;
-            }
-
-            case R.id.Q1_18c:
-            {
-                score +=1;
-            }
-
-            case R.id.Q1_19c:
-            {
-                score +=1;
-            }
-
-            case R.id.Q1_20c:
-            {
-                score +=1;
-            }
-
-
-
-
         }
     }
 

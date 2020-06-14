@@ -38,6 +38,54 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/Q1_15q"
+                    android:layout_width="305dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cookierun2"
+                    android:text="37.5도 이상의 발열이 있습니까?" />
+
+                <CheckBox
+                    android:id="@+id/Q1_15c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onCheckButtonListener"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Q1_16q"
+                    android:layout_width="305dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/cookierun2"
+                    android:text="2주간 해외에 다녀오거나 확진자와 접촉했습니까?" />
+
+                <CheckBox
+                    android:id="@+id/Q1_16c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="onCheckButtonListener"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <TextView
                     android:id="@+id/Q1_1q"
                     android:layout_width="305dp"
                     android:layout_height="32dp"
@@ -68,7 +116,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="기침을 합니까?" />
+                    android:text="마른 기침을 합니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_2c"
@@ -116,7 +164,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="두통이 있습니까?" />
+                    android:text="몸살이 있습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_4c"
@@ -140,7 +188,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="호흡곤란을 겪은 적이 있습니까?" />
+                    android:text="인후통이 있습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_5c"
@@ -164,7 +212,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="가슴에 통증이 있습니까?" />
+                    android:text="설사를 합니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_6c"
@@ -188,7 +236,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="근육통이 있습니까?" />
+                    android:text="결막염이 생겼습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_7c"
@@ -212,7 +260,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="인후통이 있습니까?" />
+                    android:text="두통이 있습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_8c"
@@ -236,7 +284,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="눕거나, 누웠다가 앉을 때 흉부에서 무언가 느껴집니까?" />
+                    android:text="미각 또는 후각을 잃었습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_9c"
@@ -261,7 +309,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="입맛이 없거나 체중이 감소했습니까?" />
+                    android:text="피부에 발진이 생겼습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_10c"
@@ -286,7 +334,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="콧물이나 코막힘이 있습니까?" />
+                    android:text="손가락이나 발가락이 변색되었습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_11c"
@@ -311,7 +359,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="재채기를 합니까?" />
+                    android:text="호흡곤란이나 숨가쁨을 겪은 적 있습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_12c"
@@ -336,7 +384,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="기침이나 가래에서 피가 나옵니까?" />
+                    android:text="가슴에 통증이나 압박감을 느낍니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_13c"
@@ -361,7 +409,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="오한이 있습니까?" />
+                    android:text="언어 또는 운동장애가 생겼습니까?" />
 
                 <CheckBox
                     android:id="@+id/Q1_14c"
@@ -373,155 +421,7 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/Q1_15q"
-                    android:layout_width="305dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/cookierun2"
-                    android:text="호흡하면 휘파람 소리가 날 때가 있습니까?" />
-
-                <CheckBox
-                    android:id="@+id/Q1_15c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="onCheckButtonListener"
-                    android:text="" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/Q1_16q"
-                    android:layout_width="305dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/cookierun2"
-                    android:text="어지러움을 느낍니까?" />
-
-                <CheckBox
-                    android:id="@+id/Q1_16c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="onCheckButtonListener"
-                    android:text="" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/Q1_17q"
-                    android:layout_width="305dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/cookierun2"
-                    android:text="과도한 호흡이나 가쁜 호흡이 있습니까?" />
-
-                <CheckBox
-                    android:id="@+id/Q1_17c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="onCheckButtonListener"
-                    android:text="" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/Q1_18q"
-                    android:layout_width="305dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/cookierun2"
-                    android:text="어지러움을 느낍니까?" />
-
-                <CheckBox
-                    android:id="@+id/Q1_18c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="onCheckButtonListener"
-                    android:text="" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/Q1_19q"
-                    android:layout_width="305dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/cookierun2"
-                    android:text="손발에 경련이 일어납니까?" />
-
-                <CheckBox
-                    android:id="@+id/Q1_19c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="onCheckButtonListener"
-                    android:text="" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="10dp"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/Q1_20q"
-                    android:layout_width="305dp"
-                    android:layout_height="32dp"
-                    android:layout_weight="1"
-                    android:fontFamily="@font/cookierun2"
-                    android:text="눈에 충혈이 생기거나 눈꼽이 낍니까?" />
-
-                <CheckBox
-                    android:id="@+id/Q1_20c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:onClick="onCheckButtonListener"
-                    android:text="" />
-
-
-            </LinearLayout>
         </LinearLayout>
 
 
