@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.DoubtCorona;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,8 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.todak.DoubtCorona.doubt_Corona_Question;
+import com.example.todak.R;
+import com.example.todak.SearchAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

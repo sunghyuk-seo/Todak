@@ -25,7 +25,7 @@
         <activity android:name=".self_diagnosis" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Disease_search" />
+        <activity android:name=".DoubtCorona.Disease_search" />
         <activity android:name=".IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

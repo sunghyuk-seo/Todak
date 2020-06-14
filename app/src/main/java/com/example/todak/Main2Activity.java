@@ -4,12 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.todak.self_diagnosis;
-import com.example.todak.R;
+import com.example.todak.DoubtCorona.Disease_search;
 
 public class Main2Activity extends AppCompatActivity {
 
