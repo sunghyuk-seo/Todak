@@ -12,7 +12,7 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.todak.DoubtCorona.doubt_Corona1;
+import com.example.todak.DoubtCorona.doubt_Corona_Question;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,12 +69,12 @@ public class Disease_search extends AppCompatActivity {
                 {
                     case 0:
                     {
-                        setContentView(R.layout.activity_doubt__corona1);
+                        setContentView(R.layout.doubt_corona_intro);
                         Handler handle = new Handler();
                         handle.postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                Intent intent = new Intent(Disease_search.this, doubt_Corona1.class);
+                                Intent intent = new Intent(Disease_search.this, doubt_Corona_Question.class);
                                 startActivity(intent);
                                 finish();
                             }
