@@ -31,20 +31,22 @@
         app:layout_constraintVertical_bias="0.239">
 
         <TextView
-            android:id="@+id/CoronaTextView"
+            android:id="@+id/Disease_Title"
             android:layout_width="272dp"
             android:layout_height="25dp"
+            android:fontFamily="@font/cookierun2"
             android:text="TextView"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toLeftOf="@id/CoronaRateView"
+            app:layout_constraintRight_toLeftOf="@id/Rate_Title"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/CoronaRateView"
+            android:id="@+id/Rate_Title"
             android:layout_width="142dp"
             android:layout_height="27dp"
+            android:fontFamily="@font/cookierun2"
             android:text="TextView"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -57,6 +59,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/cookierun2"
         android:text="진단 결과"
+
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/view2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,15 +68,48 @@
         app:layout_constraintTop_toTopOf="@+id/view2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/C_button_to_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="홈으로"
+        android:textSize="20dp"
+        android:fontFamily="@font/cookierun2"
+        android:background="@drawable/button_custom1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:layout_constraintVertical_bias="0.914" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="231dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cookierun2"
+            android:text="질병명"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cookierun2"
+            android:text="질병 의심 비율"
+
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintLeft_toRightOf="@id/textView5"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_editor_absoluteY="1dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
