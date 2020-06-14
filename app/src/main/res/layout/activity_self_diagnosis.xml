@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background-16"
+    android:background="@drawable/background"
     tools:context=".self_diagnosis">
 
     <ImageView
@@ -57,7 +57,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/heart"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         android:src="@drawable/heart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,7 +89,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/large_intestine"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         android:src="@drawable/large_intestine"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -105,7 +105,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/liver"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         android:src="@drawable/liver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -121,7 +121,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/lung"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         android:src="@drawable/lung"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +137,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/stomach"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
 
         android:src="@drawable/stomach"
         app:layout_constraintBottom_toBottomOf="parent"
