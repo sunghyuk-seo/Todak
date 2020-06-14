@@ -50,9 +50,9 @@ public class doubt_Corona_Question extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(doubt_Corona_Question.this,doubt_Corona_Result.class);
-                rate = 100.0*(score/(num_of_q));
+                rate = Math.round(100.0*(score/(num_of_q)*100/100.0));
 
-                Toast.makeText(getApplicationContext(),num_of_q +" " +score ,Toast.LENGTH_LONG).show();
+
 
                 intent.putExtra("Disease" , "코로나 바이러스");
                 intent.putExtra("Rate",rate);
