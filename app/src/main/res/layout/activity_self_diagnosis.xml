@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/self_background"
+    android:background="@drawable/background-16"
     tools:context=".self_diagnosis">
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="264dp"
         android:layout_height="627dp"
-        android:src="@drawable/background"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/brain"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         android:src="@drawable/brain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,7 +41,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/bladder"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         android:src="@drawable/bladder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,7 +73,7 @@
         android:layout_height="90dp"
         android:adjustViewBounds="true"
         android:background="@drawable/bone"
-        android:scaleType="centerInside"
+        android:scaleType="fitEnd"
         android:src="@drawable/bone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
