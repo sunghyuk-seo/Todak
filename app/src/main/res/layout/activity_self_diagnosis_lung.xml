@@ -51,7 +51,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  발열이 있습니까?"
+                android:text="  발열이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -61,7 +61,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  기침을 합니까?"
+                android:text="  기침을 한다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -71,7 +71,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  마른 기침을 합니까?"
+                android:text="  마른 기침을 한다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -81,7 +81,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="피로감을 느낍니까?"
+                android:text=" 피로감을 느낀다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -91,7 +91,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  두통이 있습니까?"
+                android:text="  두통이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -101,7 +101,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  호흡 곤란을 겪은 적이 있습니까?"
+                android:text="  호흡 곤란을 겪은 적이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -111,7 +111,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  갑자기 눕거나 누웠다가 앉을 때 흉부에서 무언가가 느껴집니까?"
+                android:text="  갑자기 눕거나 누웠다가 앉을 때 흉부에서 무언가가 \n  느껴진다."
                 android:textSize="15sp" />
 
 
@@ -122,7 +122,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  입맛이 없으며 체중이 감소합니까?"
+                android:text="  입맛이 없으며 체중이 감소했다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -132,7 +132,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  가슴 통증을 느낍니까?"
+                android:text="  가슴 통증을 느낀다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -142,7 +142,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  누런 가래가 나옵니까?"
+                android:text="  누런 가래가 나온다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -152,7 +152,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  근육통이 있습니까?"
+                android:text="  근육통이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -162,7 +162,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  인후통이 있습니까?"
+                android:text="  인후통이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -172,7 +172,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  콧물이 나옵니까?"
+                android:text="  콧물이 나온다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -183,7 +183,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
 
-                android:text="  코막힘이 있습니까?"
+                android:text="  코막힘이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -193,7 +193,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  재채기를 합니까?"
+                android:text="  재채기가 나온다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -203,7 +203,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  기침이나 가래에서 피가 나옵니까?"
+                android:text="  기침이나 가래에서 피가 나온다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -213,7 +213,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  오한이 있습니까?"
+                android:text="  오한이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -223,7 +223,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  호흡할 때 &quot;쌔액 쌔액&quot; 소리가 들릴 때가 있습니까?"
+                android:text="  호흡할 때 &quot;쌔액 쌔액&quot; 소리가 난다."
                 android:textSize="15sp" />
 
             <CheckBox
@@ -233,7 +233,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:fontFamily="@font/cookierun2"
-                android:text="  과도한 호흡, 가쁜 호흡이 있습니까?"
+                android:text="  과도한 호흡, 가쁜 호흡이 있다."
                 android:textSize="15sp" />
 
             <CheckBox
