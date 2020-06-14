@@ -25,12 +25,10 @@ public class doubt_Corona_Result extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doubt__corona_result);
 
-        Disease = (TextView)findViewById(R.id.Disease_Title);
         RateView = (TextView)findViewById(R.id.Rate_Title);
 
 
         Intent intent = getIntent();
-        Disease.setText(intent.getStringExtra("Disease"));
         double d1 =intent.getDoubleExtra("Rate",0);
         String s1 = Double.toString(d1);
         RateView.setText(s1 +" %");
