@@ -23,7 +23,6 @@
         <activity android:name=".DoubtCorona.doubt_Corona_Question" />
         <activity android:name=".HospitalDiary" />
         <activity android:name=".self_diagnosis" />
-        <activity android:name=".Doubt_search" />
         <activity android:name=".Main2Activity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Disease_search" />
