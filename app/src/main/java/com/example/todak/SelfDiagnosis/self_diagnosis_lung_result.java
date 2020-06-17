@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.todak.Main2Activity;
 import com.example.todak.Maps.pathActivity;
 import com.example.todak.R;
 
@@ -70,7 +71,7 @@ public class self_diagnosis_lung_result extends AppCompatActivity {
         path.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(self_diagnosis_lung_result.this, pathActivity.class);
+                Intent intent = new Intent(self_diagnosis_lung_result.this, Main2Activity.class);
                 startActivity(intent);
             }
         });
