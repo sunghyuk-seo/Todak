@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".self_diagnosis_lung_result"></activity>
+        <activity android:name=".Doubt_Cold_Question.doubt_Cold_Question"/>
+        <activity android:name=".Doubt_Cold_Question.doubt_Cold_Result"/>
         <activity android:name=".self_diagnosis_lung" />
         <activity android:name=".MapsActivity5" />
         <activity android:name=".MapsActivity4" />
@@ -19,8 +21,14 @@
         <activity android:name=".MapsActivity2" />
         <activity android:name=".pathActivity" />
         <activity android:name=".MapsActivity1" />
+        <activity android:name=".bronchitis.doubt_bronchitis_Question"/>
+        <activity android:name=".bronchitis.doubt_bronchitis_Result"/>
         <activity android:name=".DoubtCorona.doubt_Corona_Result" />
         <activity android:name=".DoubtCorona.doubt_Corona_Question" />
+        <activity android:name=".Tuberculosis.doubt_Tuberculosis_Result"/>
+        <activity android:name=".Tuberculosis.doubt_Tuberculosis_Question"/>
+        <activity android:name=".Cerebral_Infarction.doubt_cerebral_infarction_Question"/>
+        <activity android:name=".Cerebral_Infarction.doubt_cerebral_infarction_Result"/>
         <activity android:name=".HospitalDiary" />
         <activity android:name=".self_diagnosis" />
         <activity android:name=".Main2Activity" />

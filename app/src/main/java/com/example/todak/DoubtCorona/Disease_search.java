@@ -9,11 +9,17 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.todak.Cerebral_Infarction.doubt_cerebral_infarction_Question;
+import com.example.todak.Doubt_Cold_Question.doubt_Cold_Question;
 import com.example.todak.R;
 import com.example.todak.SearchAdapter;
+import com.example.todak.Tuberculosis.doubt_Tuberculosis_Question;
+import com.example.todak.bronchitis.doubt_bronchitis_Question;
+import com.example.todak.diabetes.doubt_diabetes_Question;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,6 +52,11 @@ public class Disease_search extends AppCompatActivity {
 
         editSearch.addTextChangedListener(new TextWatcher() {
             @Override
+            public void afterTextChanged(Editable editable) {
+                String text = editSearch.getText().toString();
+                search(text);
+            }
+            @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
             }
@@ -55,11 +66,7 @@ public class Disease_search extends AppCompatActivity {
 
             }
 
-            @Override
-            public void afterTextChanged(Editable editable) {
-                String text = editSearch.getText().toString();
-                search(text);
-            }
+
         });
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -80,8 +87,54 @@ public class Disease_search extends AppCompatActivity {
                                 finish();
                             }
                         }, 3000);
+                        break;
+
+                    }
+
+                    case 1: {
 
 
+
+
+                        Intent intent2 = new Intent(Disease_search.this, doubt_Cold_Question.class);
+                        startActivity(intent2);
+
+
+                        break;
+
+                    }
+
+                    case 2:
+                    {
+                        Intent intent = new Intent(Disease_search.this, doubt_Tuberculosis_Question.class);
+                        startActivity(intent);
+
+                        break;
+                    }
+
+                    case 3:
+                    {
+                        Intent intent = new Intent(Disease_search.this, doubt_bronchitis_Question.class);
+                        startActivity(intent);
+
+                        break;
+                    }
+
+                    case 4:
+                    {
+                        Intent intent = new Intent(Disease_search.this, doubt_cerebral_infarction_Question.class);
+                        startActivity(intent);
+
+                        break;
+
+                    }
+
+                    case 5:
+                    {
+                        Intent intent = new Intent(Disease_search.this, doubt_diabetes_Question.class);
+                        startActivity(intent);
+
+                        break;
                     }
                 }
             }
@@ -107,16 +160,10 @@ public class Disease_search extends AppCompatActivity {
     }
     private void settingList() {
         list.add("코로나 바이러스");
-        list.add("간염");
         list.add("감기");
         list.add("결핵");
-        list.add("고지혈증");
-        list.add("고혈압");
-        list.add("골다공증");
         list.add("기관지염");
         list.add("뇌경색");
-        list.add("뇌졸중");
-        list.add("뇌출혈");
         list.add("당뇨병");
         list.add("동맥경화");
         list.add("말라리아");

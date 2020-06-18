@@ -1,32 +1,28 @@
-package com.example.todak.DoubtCorona;
+package com.example.todak.Doubt_Cold_Question;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.ListView;
-import android.widget.ScrollView;
-import android.widget.TextView;
-import android.widget.Toast;
-
+import com.example.todak.DoubtCorona.doubt_Corona_Result;
 import com.example.todak.R;
 
-public class doubt_Corona_Question extends AppCompatActivity {
+public class doubt_Cold_Question extends AppCompatActivity {
     double score =0;
-    double num_of_q = 21;
+    double num_of_q = 8;
     double rate = 0;
+    double otherscore = 0;
+    double others = 6;
+    double otherrate = 0;
 
     boolean previous = false;
 
 
-    //Corona 의심진단 질병에 대한 리스트뷰와 체크박스 리스너를 구현하는 곳.
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,10 +30,10 @@ public class doubt_Corona_Question extends AppCompatActivity {
         //만약 이미 검사를 했다면 score와 checkbox의 데이터를 초기화 하기 위해 재실행
         if(previous)
         {
-            Intent intent = new Intent(doubt_Corona_Question.this,doubt_Corona_Question.class);
+            Intent intent = new Intent(doubt_Cold_Question.this,doubt_Cold_Question.class);
             startActivity(intent);
         }
-        setContentView(R.layout.doubt_corona_question_page_1);
+        setContentView(R.layout.doubt_cold_question);
 
         previous = true;
 
@@ -50,13 +46,17 @@ public class doubt_Corona_Question extends AppCompatActivity {
         resultButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(doubt_Corona_Question.this,doubt_Corona_Result.class);
+                Intent intent = new Intent(doubt_Cold_Question.this, doubt_Cold_Result.class);
                 rate = Math.round(100.0*(score/(num_of_q)*100/100.0));
+                otherrate = Math.round(100.0*(otherscore/others)*100/100.0);
 
 
 
-                intent.putExtra("Disease" , "코로나 바이러스");
+                intent.putExtra("Disease" , "감기");
                 intent.putExtra("Rate",rate);
+
+                intent.putExtra("Other Diseases","감기 이외 질병");
+                intent.putExtra("OtherRate",otherrate);
 
                 startActivity(intent);
 
@@ -88,8 +88,7 @@ public class doubt_Corona_Question extends AppCompatActivity {
         CheckBox q12 = findViewById(R.id.Q1_12c);
         CheckBox q13 = findViewById(R.id.Q1_13c);
         CheckBox q14 = findViewById(R.id.Q1_14c);
-        CheckBox q15 = findViewById(R.id.Q1_15c);
-        CheckBox q16 = findViewById(R.id.Q1_16c);
+
         score =0;
 
         if(q1.isChecked())  score+=1;
@@ -109,21 +108,19 @@ public class doubt_Corona_Question extends AppCompatActivity {
 
         if (q8.isChecked()) score +=1;
 
-        if (q9.isChecked()) score +=1;
+        if (q9.isChecked()) otherscore +=1;
 
-        if (q10.isChecked()) score +=1;
+        if (q10.isChecked()) otherscore +=1;
 
-        if (q11.isChecked()) score +=1;
+        if (q11.isChecked()) otherscore +=1;
 
-        if (q12.isChecked()) score +=2;
+        if (q12.isChecked()) otherscore +=1;
 
-        if (q13.isChecked()) score +=2;
+        if (q13.isChecked()) otherscore +=1;
 
-        if (q14.isChecked()) score +=2;
+        if (q14.isChecked()) otherscore +=1;
 
-        if (q15.isChecked()) score +=2;
 
-        if (q16.isChecked()) score +=2;
 
 
     }
