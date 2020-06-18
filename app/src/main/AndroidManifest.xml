@@ -34,6 +34,16 @@
         <activity android:name=".Maps.MapsActivity2" />
         <activity android:name=".Maps.MapsActivity1" />
         <activity android:name=".Maps.pathActivity" />
+        <activity android:name=".Tuberculosis.doubt_Tuberculosis_Question"/>
+        <activity android:name=".Tuberculosis.doubt_Tuberculosis_Result"/>
+        <activity android:name=".Doubt_Cold_Question.doubt_Cold_Result"/>
+        <activity android:name=".Doubt_Cold_Question.doubt_Cold_Question"/>
+        <activity android:name=".Cerebral_Infarction.doubt_cerebral_infarction_Result"/>
+        <activity android:name=".Cerebral_Infarction.doubt_cerebral_infarction_Question"/>
+        <activity android:name=".diabetes.doubt_diabetes_Question"/>
+        <activity android:name=".diabetes.doubt_diabetes_Result"/>
+        <activity android:name=".bronchitis.doubt_bronchitis_Result"/>
+        <activity android:name=".bronchitis.doubt_bronchitis_Question"/>
         <activity android:name=".DoubtCorona.doubt_Corona_Result" />
         <activity android:name=".DoubtCorona.doubt_Corona_Question" />
         <activity android:name=".Diary.HospitalDiary" />
