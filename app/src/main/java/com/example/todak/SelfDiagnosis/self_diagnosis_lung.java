@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.SelfDiagnosis;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,8 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.todak.R;
+
 public class self_diagnosis_lung extends AppCompatActivity {
 
     public static Boolean var;
@@ -20,8 +22,6 @@ public class self_diagnosis_lung extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_self_diagnosis_lung);
-
-        var = false;
 
         final CheckBox cb1 = (CheckBox) findViewById(R.id.checkBox1);
         final CheckBox cb2 = (CheckBox) findViewById(R.id.checkBox2);

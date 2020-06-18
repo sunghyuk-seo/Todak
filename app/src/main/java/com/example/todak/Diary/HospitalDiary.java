@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.Diary;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.todak.R;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

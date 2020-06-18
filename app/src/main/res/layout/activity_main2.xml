@@ -79,7 +79,7 @@
             android:fontFamily="@font/cookierun2"
             android:gravity="left|center_vertical"
             android:padding="13sp"
-            android:text="예상질병진단                  >"
+            android:text="의심질병진단                  >"
             android:textColor="#FBD04C"
             android:textSize="24sp" />
 

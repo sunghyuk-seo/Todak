@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".self_diagnosis_lung_result">
+    tools:context=".SelfDiagnosis.self_diagnosis_lung_result">
 
 
     <View
@@ -468,7 +468,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_custom1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="병원찾기"
+                    android:text="홈으로"
                     android:textSize="20sp" />
 
             </LinearLayout>
