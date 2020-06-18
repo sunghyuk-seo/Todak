@@ -22,11 +22,8 @@ public class IntroActivity extends Activity{
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
                 finish();
-
             }
         }, 3000);
-
-
 
     }
         protected void onPause()
