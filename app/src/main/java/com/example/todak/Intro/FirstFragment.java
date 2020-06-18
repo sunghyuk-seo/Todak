@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.Intro;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;

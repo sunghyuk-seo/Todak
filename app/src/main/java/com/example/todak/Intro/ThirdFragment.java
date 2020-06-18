@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.Intro;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 
+import com.example.todak.Main2Activity;
 import com.example.todak.R;
 
 public class ThirdFragment  extends Fragment  {
@@ -49,7 +50,7 @@ public class ThirdFragment  extends Fragment  {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent LoadNewActivity = new Intent(getActivity(),Main2Activity.class);
+                Intent LoadNewActivity = new Intent(getActivity(), Main2Activity.class);
                 startActivity(LoadNewActivity);
             }
         });

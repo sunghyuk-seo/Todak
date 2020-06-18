@@ -7,7 +7,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.todak.Diary.HospitalDiary;
 import com.example.todak.DoubtCorona.Disease_search;
+import com.example.todak.Maps.pathActivity;
+import com.example.todak.SelfDiagnosis.self_diagnosis;
 
 public class Main2Activity extends AppCompatActivity {
 

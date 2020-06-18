@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".self_diagnosis_lung_result">
+    tools:context=".SelfDiagnosis.self_diagnosis_lung_result">
 
 
     <View
@@ -32,7 +32,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="550dp"
+        android:layout_height="525dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.071"
@@ -56,10 +56,10 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="감기"
-                    android:background="@drawable/edge"
 
                     android:textColor="#000000"
                     android:textSize="20sp" />
@@ -69,9 +69,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="200여 종 이상의 바이러스에 의해 발생하는 호흡기계의 감염 증상" />
 
                 <TextView
@@ -79,10 +79,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="TextView"
-                    android:background="@drawable/edge"
 
                     android:textColor="#000000"
                     android:textSize="17dp" />
@@ -94,7 +94,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                
+
                 >
 
                 <TextView
@@ -102,11 +102,11 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="코로나"
                     android:textColor="#000000"
-                    android:background="@drawable/edge"
                     android:textSize="20sp" />
 
                 <TextView
@@ -114,9 +114,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="2019년 12월 중국에서 처음 발생한 신종 바이러스에 의한 호흡기 감염질환" />
 
                 <TextView
@@ -124,9 +124,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="TextView"
                     android:textColor="#000000"
                     android:textSize="17dp" />
@@ -138,7 +138,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                
+
                 >
 
                 <TextView
@@ -146,10 +146,10 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="폐렴"
-                    android:background="@drawable/edge"
                     android:textColor="#000000"
                     android:textSize="20sp" />
 
@@ -158,9 +158,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="미생물 감염에 의해 발생하는 폐의 염증" />
 
                 <TextView
@@ -168,9 +168,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="TextView"
                     android:textColor="#000000"
                     android:textSize="17dp" />
@@ -182,7 +182,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                
+
                 >
 
                 <TextView
@@ -190,9 +190,9 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="폐결핵"
                     android:textColor="#000000"
                     android:textSize="20sp" />
@@ -202,9 +202,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="결핵균이 폐에 들어가 염증을 일으키는 질환" />
 
                 <TextView
@@ -212,9 +212,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="TextView"
                     android:textColor="#000000"
                     android:textSize="17dp" />
@@ -234,11 +234,11 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="천식"
                     android:textColor="#000000"
-                    android:background="@drawable/edge"
                     android:textSize="20sp" />
 
                 <TextView
@@ -246,8 +246,8 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
-                    android:fontFamily="@font/cookierun2"
                     android:background="@drawable/edge"
+                    android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="호흡곤란, 기침, 거친 숨소리 등의 증상이 반복적, 발작적으로 나타나는 질환" />
 
@@ -256,9 +256,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="TextView"
                     android:textColor="#000000"
                     android:textSize="17dp" />
@@ -270,7 +270,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                
+
                 >
 
                 <TextView
@@ -278,9 +278,9 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="급성\n기관지염"
                     android:textColor="#000000"
                     android:textSize="17sp" />
@@ -290,9 +290,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="바이러스나 세균 등의 감염에 의해 급성으로 기관 조직에 염증이 발생하는 상태" />
 
                 <TextView
@@ -300,9 +300,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="TextView"
                     android:textColor="#000000"
                     android:textSize="17dp" />
@@ -314,7 +314,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                
+
                 >
 
                 <TextView
@@ -322,11 +322,11 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="기흉"
                     android:textColor="#000000"
-                    android:background="@drawable/edge"
                     android:textSize="20sp" />
 
                 <TextView
@@ -334,9 +334,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="공기가 없어야 하는 가슴 안쪽에 공기가 존재하는 상태" />
 
                 <TextView
@@ -344,11 +344,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="TextView"
                     android:textColor="#000000"
-                    android:background="@drawable/edge"
                     android:textSize="17dp" />
             </LinearLayout>
 
@@ -358,7 +358,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                
+
                 >
 
                 <TextView
@@ -366,9 +366,9 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="알레르기성 비염"
                     android:textColor="#000000"
                     android:textSize="17sp" />
@@ -378,9 +378,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="연속적인 재채기, 계속 흘러 내리는 맑은 콧물, 코막힘, 가려움증 등의 증상을 보이는 코 점막의 질환" />
 
                 <TextView
@@ -388,10 +388,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="TextView"
-                    android:background="@drawable/edge"
                     android:textColor="#000000"
                     android:textSize="17dp" />
             </LinearLayout>
@@ -402,7 +402,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                
+
                 >
 
                 <TextView
@@ -410,10 +410,10 @@
                     android:layout_width="246dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="과호흡증후군"
-                    android:background="@drawable/edge"
                     android:textColor="#000000"
                     android:textSize="17sp" />
 
@@ -422,9 +422,9 @@
                     android:layout_width="400dp"
                     android:layout_height="match_parent"
                     android:layout_weight="0.5"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
-                    android:background="@drawable/edge"
                     android:text="호흡 중에 이산화탄소가 과도하게 배출되어 혈중 이산화탄소의 농도가 정상 범위 미만으로 낮아지는 질환" />
 
                 <TextView
@@ -432,10 +432,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@drawable/edge"
                     android:fontFamily="@font/cookierun2"
                     android:gravity="center"
                     android:text="TextView"
-                    android:background="@drawable/edge"
                     android:textColor="#000000"
                     android:textSize="17dp" />
 
@@ -448,6 +448,7 @@
                 android:layout_weight="1"
                 android:orientation="horizontal">
                 android:layout_margin="5dp"
+
                 <Button
                     android:id="@+id/back"
                     android:layout_width="wrap_content"
@@ -467,7 +468,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/button_custom1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="병원찾기"
+                    android:text="홈으로"
                     android:textSize="20sp" />
 
             </LinearLayout>

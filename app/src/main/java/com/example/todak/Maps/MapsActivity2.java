@@ -1,4 +1,4 @@
-package com.example.todak;
+package com.example.todak.Maps;
 
 import android.os.Bundle;
 import android.webkit.WebSettings;
@@ -6,6 +6,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.todak.R;
 
 public class MapsActivity2 extends AppCompatActivity {
 
