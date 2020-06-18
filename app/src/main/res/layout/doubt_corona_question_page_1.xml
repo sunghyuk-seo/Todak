@@ -6,32 +6,59 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imageView7"
+
+    <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="147dp"
+        android:layout_weight="1"
+        android:background="#84FBCC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/bar" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Corona_top_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cookierun2"
+        android:text="코로나 바이러스 의심 진단"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ScrollView
         android:id="@+id/scrollView_Corona"
-        android:layout_width="326dp"
-        android:layout_height="338dp"
-        app:layout_constraintBottom_toTopOf="@id/Q1_resultbutton"
+        android:layout_width="match_parent"
+        android:layout_height="515dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+        app:layout_constraintTop_toBottomOf="@+id/view">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/cookierun2"
+                android:text="해당되는 증상을 체크하세요."
+                android:layout_margin="5dp"
+                android:textSize="23sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="133dp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -45,8 +72,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="37.5도 이상의 발열이 있습니까?"
-                    android:textAlignment="center" />
+                    android:text="   37.5도 이상의 발열이 있습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_15c"
@@ -70,8 +97,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="2주간 해외에 다녀오거나 확진자와 접촉했습니까?"
-                    android:textAlignment="center" />
+                    android:text="   2주간 해외에 다녀오거나 확진자와 접촉했습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_16c"
@@ -95,8 +122,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="발열이 있습니까?"
-                    android:textAlignment="center" />
+                    android:text="   발열이 있습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_1c"
@@ -121,8 +148,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="마른 기침을 합니까?"
-                    android:textAlignment="center" />
+                    android:text="   마른 기침을 합니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_2c"
@@ -146,8 +173,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="피로감을 느낍니까?"
-                    android:textAlignment="center" />
+                    android:text="   피로감을 느낍니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_3c"
@@ -171,8 +198,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="몸살이 있습니까?"
-                    android:textAlignment="center" />
+                    android:text="   몸살이 있습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_4c"
@@ -196,8 +223,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="인후통이 있습니까?"
-                    android:textAlignment="center" />
+                    android:text="   인후통이 있습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_5c"
@@ -221,8 +248,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="설사를 합니까?"
-                    android:textAlignment="center" />
+                    android:text="   설사를 합니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_6c"
@@ -246,8 +273,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="결막염이 생겼습니까?"
-                    android:textAlignment="center" />
+                    android:text="   결막염이 생겼습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_7c"
@@ -271,8 +298,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="두통이 있습니까?"
-                    android:textAlignment="center" />
+                    android:text="   두통이 있습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_8c"
@@ -296,8 +323,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="미각 또는 후각을 잃었습니까?"
-                    android:textAlignment="center" />
+                    android:text="   미각 또는 후각을 잃었습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_9c"
@@ -322,8 +349,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="피부에 발진이 생겼습니까?"
-                    android:textAlignment="center" />
+                    android:text="   피부에 발진이 생겼습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_10c"
@@ -348,8 +375,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="손가락이나 발가락이 변색되었습니까?"
-                    android:textAlignment="center" />
+                    android:text="   손가락이나 발가락이 변색되었습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_11c"
@@ -374,8 +401,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="호흡곤란이나 숨가쁨을 겪은 적 있습니까?"
-                    android:textAlignment="center" />
+                    android:text="   호흡곤란이나 숨가쁨을 겪은 적 있습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_12c"
@@ -400,7 +427,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="가슴에 통증이나 압박감을 느낍니까?" />
+                    android:text="   가슴에 통증이나 압박감을 느낍니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_13c"
@@ -408,8 +436,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="onCheckButtonListener"
-                    android:text=""
-                    android:textAlignment="center" />
+                    android:text="" />
 
 
             </LinearLayout>
@@ -426,7 +453,8 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="언어 또는 운동장애가 생겼습니까?" />
+                    android:text="   언어 또는 운동장애가 생겼습니까?"
+                    android:textColor="#000000" />
 
                 <CheckBox
                     android:id="@+id/Q1_14c"
@@ -434,43 +462,24 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:onClick="onCheckButtonListener"
-                    android:text=""
-                    android:textAlignment="center" />
+                    android:text="" />
 
             </LinearLayout>
 
+            <Button
+                android:id="@+id/Q1_resultbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_custom1"
+                android:fontFamily="@font/cookierun2"
+                android:text="결과보기"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
-
     </ScrollView>
-
-    <TextView
-        android:id="@+id/Corona_top_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/cookierun2"
-        android:text="코로나 바이러스 의심 진단"
-        android:textSize="25dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/Q1_resultbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/cookierun2"
-        android:text="결과보기"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

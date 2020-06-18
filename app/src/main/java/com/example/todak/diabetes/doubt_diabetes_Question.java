@@ -29,7 +29,7 @@ public class doubt_diabetes_Question extends AppCompatActivity {
             Intent intent = new Intent(doubt_diabetes_Question.this, doubt_diabetes_Question.class);
             startActivity(intent);
         }
-        setContentView(R.layout.doubt_bronchitis_question);
+        setContentView(R.layout.doubt_diabetes_question);
 
         previous = true;
 

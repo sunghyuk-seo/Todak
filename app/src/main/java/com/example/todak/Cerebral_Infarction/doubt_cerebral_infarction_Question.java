@@ -29,7 +29,7 @@ public class doubt_cerebral_infarction_Question extends AppCompatActivity {
             Intent intent = new Intent(doubt_cerebral_infarction_Question.this, doubt_cerebral_infarction_Question.class);
             startActivity(intent);
         }
-        setContentView(R.layout.doubt_bronchitis_question);
+        setContentView(R.layout.doubt_cerebral_infarction_question);
 
         previous = true;
 

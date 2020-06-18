@@ -5,18 +5,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView7"
+    <View
+        android:id="@+id/view3"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="147dp"
+        android:layout_weight="1"
+        android:background="#84FBCC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/corona_top_text"
+        android:layout_width="133dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/cookierun2"
+        android:text="당뇨 진단"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/bar" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ScrollView
         android:id="@+id/scrollView_Cold"
@@ -26,8 +38,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.187">
+        app:layout_constraintTop_toBottomOf="@+id/view3">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -338,11 +349,6 @@
                 </LinearLayout>
 
             </LinearLayout>
-
-
-
-
-
 
 
         </LinearLayout>

@@ -5,18 +5,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <ImageView
-        android:id="@+id/imageView7"
+    <View
+        android:id="@+id/view3"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="147dp"
+        android:layout_weight="1"
+        android:background="#84FBCC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/corona_top_text"
+        android:layout_width="133dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/cookierun2"
+        android:text="기관지염 진단"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/bar" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <ScrollView
         android:id="@+id/scrollView_Cold"
@@ -26,8 +38,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.187">
+        app:layout_constraintTop_toBottomOf="@+id/view3">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +58,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="몸의 반쪽이 마비된 것 같습니까?"
+                    android:text="기침을 합니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -72,7 +83,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="갑작스럽게 말이 어눌해지거나 의사소통에 어려움이 있습니까?"
+                    android:text="발열이 있습니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -98,7 +109,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="갑작스럽게 앞을 보는데 어려움이 있습니까?"
+                    android:text="가슴통증이 있습니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -123,7 +134,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="갑자기 어지럽습니까?"
+                    android:text="인후통이 있습니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -148,7 +159,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="머리가 갑자기 매우 아픕니까?"
+                    android:text="기침 가래가 2주 이상 지속됩니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -173,7 +184,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="몸의 균형을 잡기가 어렵습니까?"
+                    android:text="숨 쉬기가 어렵습니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -198,7 +209,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="대상이 여러개로 보입니까?"
+                    android:text="농이 섞인 가래나 객담이 있습니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -223,7 +234,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="웃었을 때 한 쪽 입이 올라가지 않습니까?"
+                    android:text="목이 붓고 따갑습니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -248,7 +259,7 @@
                     android:layout_height="32dp"
                     android:layout_weight="1"
                     android:fontFamily="@font/cookierun2"
-                    android:text="두 손을 위로 뻗었을 때 한 쪽이 떨어집니까?"
+                    android:text="입이나 코, 눈 점막이 가렵습니까?"
                     android:textAlignment="center" />
 
                 <CheckBox
@@ -260,11 +271,6 @@
                     android:text="" />
 
             </LinearLayout>
-
-
-
-
-
 
 
         </LinearLayout>
