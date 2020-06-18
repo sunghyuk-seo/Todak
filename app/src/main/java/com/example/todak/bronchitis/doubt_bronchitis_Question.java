@@ -42,7 +42,7 @@ public class doubt_bronchitis_Question extends AppCompatActivity {
         resultButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(doubt_bronchitis_Question.this, doubt_bronchitis_Result.class);
+                Intent intent = new Intent(doubt_bronchitis_Question.this, doubt_bronchitis_Question.class);
                 rate = Math.round(100.0*(score/(num_of_q)*100/100.0));
                
 
