@@ -14,9 +14,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:layout_constraintBottom_toTopOf="@id/Disease_Title"
-        />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView6"
@@ -36,7 +34,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/cookierun2"
         android:gravity="center"
-        android:text=""
+        android:text="코로나 바이러스일 확률"
         android:textColor="#000000"
         android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/Rate_Title"
@@ -50,7 +48,7 @@
         android:id="@+id/Rate_Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="240dp"
         android:fontFamily="@font/cookierun2"
         android:gravity="center"
         android:text="TextView"
@@ -59,13 +57,13 @@
         app:layout_constraintBottom_toTopOf="@+id/C_button_to_home"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Disease_Title" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/C_button_to_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/button_custom1"
         android:fontFamily="@font/cookierun2"
         android:text="홈으로"
@@ -73,8 +71,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/Rate_Title" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,6 @@ public class doubt_Corona_Question extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //만약 이미 검사를 했다면 score와 checkbox의 데이터를 초기화 하기 위해 재실행
         if(previous)
         {
             Intent intent = new Intent(doubt_Corona_Question.this,doubt_Corona_Question.class);
@@ -72,7 +71,7 @@ public class doubt_Corona_Question extends AppCompatActivity {
     }
     public void onCheckButtonListener(View view)
     {
-
+        boolean checked = ((CheckBox)view).isChecked();
 
         CheckBox q1 = findViewById(R.id.Q1_1c);
         CheckBox q2 = findViewById(R.id.Q1_2c);
